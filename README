@@ -1,0 +1,36 @@
+Simple PCB with ATmega128RFa1 processor and usb. 
+Main application of this board will be in our RepRap projects.
+
+This work is licensed under the GNU GPL v3 or (at the user's discretion) any later version.
+Software that will be used in this project is completely free and should be licensed under GPL v2 or later.
+
+As a pins and code reference I'll use zigduino project:
+http://www.logos-electro.com/zigduino/
+
+============================================================================
+
+Components:
+1. ATmega128RFa1 -> 64 pins QFN @ 3.3 V
+2. FT232RL       -> 28 pins     @ 3.3 V
+3. BA033         -> 5 pins      @ -0.3 - 35 V
+4. 2450FB15L0001 -> 6 pins      - RF balun
+5. tunning capacitors -> 22 pF, 0.5 - 1.5 pF, 0603
+6. RPSMA connector or PCB antenna
+7. ICSP connector
+
+============================================================================
+
+Basic processes of the foundries should be examined and compared, so a simplified
+trasistor model could be generated for more universal design.
+
+Other option is a model to be generated according the needs and after that the most
+suitable foundry should be chosen.
+
+============================================================================
+
+Schematic and layout design will be done using KiCAD.
+Eventually a 3D models of the components will be added to the PCB.
+
+============================================================================
+
+Additional software for testing should be implemented.
