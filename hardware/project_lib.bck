@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Tue 03 Apr 2012 01:38:07 PM EEST
+EESchema-DOCLIB  Version 2.0  Date: Tue 03 Apr 2012 01:43:20 PM EEST
 #
 $CMP ATMEGA128RFA1
 D Atmega128rfa1 - Atmega128 with RF frontend @ 2.4 GHz
@@ -7,8 +7,8 @@ F http://www.atmel.com/Images/doc8266.pdf
 $ENDCMP
 #
 $CMP CAP_0603
-D Resistor 0603
-K resistor
+D Capacitor 0603
+K capacitor
 $ENDCMP
 #
 $CMP IND_0603
@@ -19,6 +19,11 @@ $ENDCMP
 $CMP RES_0603
 D Resistor 0603
 K resistor
+$ENDCMP
+#
+$CMP TANT_CAP_0603
+D Tantala capacitor 0603
+K capacitor
 $ENDCMP
 #
 #End Doc Library
