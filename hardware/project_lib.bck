@@ -1,4 +1,10 @@
-EESchema-DOCLIB  Version 2.0  Date: Tue 03 Apr 2012 01:44:25 PM EEST
+EESchema-DOCLIB  Version 2.0  Date: Tue 10 Apr 2012 04:17:15 PM EEST
+#
+$CMP 2450FB15L0001
+D 2.45 GHz Harmonic Filter-Balun Optimized for AT86RF230/231 and ATmega128RFA1
+K 2450FB15L0001, ATmega128RFa1
+F http://www.farnell.com/datasheets/1318323.pdf
+$ENDCMP
 #
 $CMP ATMEGA128RFA1
 D Atmega128rfa1 - Atmega128 with RF frontend @ 2.4 GHz
@@ -6,9 +12,37 @@ K atmega, atmega128, atmega128rfa1
 F http://www.atmel.com/Images/doc8266.pdf
 $ENDCMP
 #
+$CMP BA033CC0WFP
+D 3.3V LDO, 1A, ROHM BA033CC0WFP
+K LDO, 1A, 3.3V
+F http://store.comet.bg/bg/Catalogue/Product/4872/?dl=2663
+$ENDCMP
+#
+$CMP BAT54S
+D 200mW SMD Schottky Barrier Diode, BAT54S
+K Diode, BAT54S, SMD, Shottky
+F http://www.farnell.com/datasheets/1317753.pdf
+$ENDCMP
+#
 $CMP CAP_0603
 D Capacitor 0603
 K capacitor
+$ENDCMP
+#
+$CMP DIODE
+D General purpose diodes
+K diode, general purpose
+$ENDCMP
+#
+$CMP FT232RL
+D USB to serial converter FT232RL (FTDI)
+K FTDI, FT232RL
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
+$ENDCMP
+#
+$CMP I2C
+D I2C interface
+K Connector, I2C, Interface
 $ENDCMP
 #
 $CMP IND_0603
@@ -16,9 +50,20 @@ D Inductor 0603
 K inductor
 $ENDCMP
 #
+$CMP Q16.000
+D Quartz 16.000 MHz, 10 ppm, SMD
+K SMD, Quartz, 10 ppm, 16.000
+F http://store.comet.bg/bg/Catalogue/Product/6270/?dl=1974
+$ENDCMP
+#
 $CMP RES_0603
 D Resistor 0603
 K resistor
+$ENDCMP
+#
+$CMP SPI
+D SPI interface on connector
+K SPI, interdace, connector
 $ENDCMP
 #
 $CMP TANT_CAP_0603
