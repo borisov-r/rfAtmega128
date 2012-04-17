@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Tue 10 Apr 2012 04:18:48 PM EEST
+EESchema-DOCLIB  Version 2.0  Date: Tue 17 Apr 2012 04:39:43 PM EEST
 #
 $CMP 2450FB15L0001
 D 2.45 GHz Harmonic Filter-Balun Optimized for AT86RF230/231 and ATmega128RFA1
@@ -29,6 +29,31 @@ D Capacitor 0603
 K capacitor
 $ENDCMP
 #
+$CMP CAP_0603_POL
+D Tantala capacitor 0603
+K capacitor
+$ENDCMP
+#
+$CMP CON16
+D 16 pins connector header
+K connector, 16 pins, header
+$ENDCMP
+#
+$CMP CON6
+D 6 pins connector
+K connector, 6 pins
+$ENDCMP
+#
+$CMP CON8
+D 8 pins connector
+K connector, 8 pins
+$ENDCMP
+#
+$CMP DCPWR_JACK2P5_PCB
+D DC Power Jack 2.5 mm
+K DC, power supply, jack, 2.5 mm
+$ENDCMP
+#
 $CMP DIODE
 D General purpose diodes
 K diode, general purpose
@@ -48,6 +73,11 @@ $ENDCMP
 $CMP IND_0603
 D Inductor 0603
 K inductor
+$ENDCMP
+#
+$CMP J2PIN
+D Jumper
+K jumper 2 pins header
 $ENDCMP
 #
 $CMP Q16.000
