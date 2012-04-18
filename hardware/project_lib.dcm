@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Tue 17 Apr 2012 04:39:43 PM EEST
+EESchema-DOCLIB  Version 2.0  Date: Wed 18 Apr 2012 03:45:14 PM EEST
 #
 $CMP 2450FB15L0001
 D 2.45 GHz Harmonic Filter-Balun Optimized for AT86RF230/231 and ATmega128RFA1
@@ -65,6 +65,11 @@ K FTDI, FT232RL
 F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
 $ENDCMP
 #
+$CMP H2X3
+D Header 2x3, 2.54
+K Header, 2x3, 2.54
+$ENDCMP
+#
 $CMP I2C
 D I2C interface
 K Connector, I2C, Interface
@@ -80,6 +85,11 @@ D Jumper
 K jumper 2 pins header
 $ENDCMP
 #
+$CMP J3PIN
+D Jumper
+K jumper 3 pins header
+$ENDCMP
+#
 $CMP Q16.000
 D Quartz 16.000 MHz, 10 ppm, SMD
 K SMD, Quartz, 10 ppm, 16.000
@@ -89,6 +99,12 @@ $ENDCMP
 $CMP RES_0603
 D Resistor 0603
 K resistor
+$ENDCMP
+#
+$CMP RP-SMA
+D RP-SMA (reverse polarity SMA) connector
+K RP-SMA, connector, SMA
+F http://store.comet.bg/bg/Catalogue/Product/8986/
 $ENDCMP
 #
 $CMP SPI

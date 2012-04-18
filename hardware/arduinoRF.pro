@@ -1,6 +1,6 @@
-update=Tue 10 Apr 2012 02:05:48 PM EEST
+update=Wed 18 Apr 2012 04:38:59 PM EEST
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetITyp=0
@@ -77,8 +77,6 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -114,3 +112,5 @@ LabSize=60
 LibName1=power
 LibName2=conn
 LibName3=project_lib
+[general]
+version=1
