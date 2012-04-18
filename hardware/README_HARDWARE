@@ -1,0 +1,6 @@
+This project is using only open source and free software.
+The hardware part is designed in KiCAD.
+Additional 3D models should be included later.
+
+At the end I would like to have schematic, layout and 3D models
+initial library with verified components for use later works.
