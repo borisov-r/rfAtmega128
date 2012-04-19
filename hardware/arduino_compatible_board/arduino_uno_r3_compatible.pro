@@ -1,5 +1,5 @@
-update=Wed 18 Apr 2012 11:34:06 AM EEST
-last_client=eeschema
+update=Thu 19 Apr 2012 04:25:10 PM EEST
+last_client=pcbnew
 [eeschema]
 version=1
 LibDir=Z:/home/borisov-r/git/temp/numato_kicad_lib_v0.01
@@ -62,3 +62,38 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+[pcbnew]
+version=1
+PadDrlX=320
+PadDimH=600
+PadDimV=600
+BoardThickness=630
+TxtPcbV=800
+TxtPcbH=600
+TxtModV=600
+TxtModH=600
+TxtModW=120
+VEgarde=100
+DrawLar=150
+EdgeLar=150
+TxtLar=120
+MSegLar=150
+LastNetListRead=
+[pcbnew/libraries]
+LibDir=Z:/home/borisov-r/git/arduinoRF/hardware/numato_kicad_lib
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=valves
+LibName9=led
+LibName10=dip_sockets
+LibName11=w_smd_diode
+LibName12=numato_kicad_lib
+LibName13=w_pin_strip
+LibName14=w_smd_resistors
+LibName15=w_details
+LibName16=w_misc_comp

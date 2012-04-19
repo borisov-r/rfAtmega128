@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Wed 18 Apr 2012 01:14:06 PM EEST
+EESchema-DOCLIB  Version 2.0  Date: Thu 19 Apr 2012 04:22:58 PM EEST
 #
 $CMP 2450FB15L0001
 D 2.45 GHz Harmonic Filter-Balun Optimized for AT86RF230/231 and ATmega128RFA1
@@ -101,6 +101,12 @@ D Resistor 0603
 K resistor
 $ENDCMP
 #
+$CMP RP-SMA
+D RP-SMA (reverse polarity SMA) connector
+K RP-SMA, connector, SMA
+F http://store.comet.bg/bg/Catalogue/Product/8986/
+$ENDCMP
+#
 $CMP SPI
 D SPI interface on connector
 K SPI, interdace, connector
@@ -109,6 +115,24 @@ $ENDCMP
 $CMP TANT_CAP_0603
 D Tantala capacitor 0603
 K capacitor
+$ENDCMP
+#
+$CMP TEST
+D TEST Pin
+K TEST pin to place where a control is needed.
+F http://store.comet.bg/bg/Catalogue/Product/29190/
+$ENDCMP
+#
+$CMP TEST_PAD
+D TEST Pin
+K TEST pin to place where a control is needed.
+F http://store.comet.bg/bg/Catalogue/Product/29190/
+$ENDCMP
+#
+$CMP USB_B
+D USB Connector
+K USB usb CONNECTOR connector
+F http://store.comet.bg/bg/Catalogue/Product/4227/
 $ENDCMP
 #
 #End Doc Library
