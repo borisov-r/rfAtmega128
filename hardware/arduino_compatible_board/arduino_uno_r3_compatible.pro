@@ -1,4 +1,4 @@
-update=Thu 19 Apr 2012 04:25:10 PM EEST
+update=Fri 20 Apr 2012 09:40:05 AM EEST
 last_client=pcbnew
 [eeschema]
 version=1
@@ -97,3 +97,4 @@ LibName13=w_pin_strip
 LibName14=w_smd_resistors
 LibName15=w_details
 LibName16=w_misc_comp
+LibName17=w_smd_cap

@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Thu 19 Apr 2012 04:22:58 PM EEST
+EESchema-DOCLIB  Version 2.0  Date: Fri 20 Apr 2012 12:05:54 PM EEST
 #
 $CMP 2450FB15L0001
 D 2.45 GHz Harmonic Filter-Balun Optimized for AT86RF230/231 and ATmega128RFA1
@@ -22,6 +22,12 @@ $CMP BAT54S
 D 200mW SMD Schottky Barrier Diode, BAT54S
 K Diode, BAT54S, SMD, Shottky
 F http://www.farnell.com/datasheets/1317753.pdf
+$ENDCMP
+#
+$CMP BUTTON
+D TS-061 Tact Switch
+K 2p SPST Tact Switch Button
+F http://store.comet.bg/bg/Catalogue/Product/10161/
 $ENDCMP
 #
 $CMP CAP_0603
