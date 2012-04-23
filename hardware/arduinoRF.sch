@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 20 Apr 2012 02:53:01 PM EEST
+EESchema Schematic File Version 2  date Mon 23 Apr 2012 02:01:11 PM EEST
 LIBS:power
 LIBS:conn
 LIBS:project_lib
@@ -9,7 +9,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "arduinoRF"
-Date "20 apr 2012"
+Date "23 apr 2012"
 Rev "1.0"
 Comp "rdrlab"
 Comment1 ""
@@ -17,6 +17,34 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 1900 9800 0    31   ~ 0
+D19
+Text Label 1900 9500 0    31   ~ 0
+D18
+Text Label 1900 9200 0    31   ~ 0
+D17
+Text Label 1900 8900 0    31   ~ 0
+D16
+Text Label 1900 8600 0    31   ~ 0
+D15
+Text Label 1900 8300 0    31   ~ 0
+D14
+Text Label 9550 10400 0    31   ~ 0
+D25
+Text Label 9550 10100 0    31   ~ 0
+D24
+Text Label 9550 9800 0    31   ~ 0
+D23
+Text Label 9550 9500 0    31   ~ 0
+D22
+Text Label 9550 9200 0    31   ~ 0
+D21
+Text Label 9550 8900 0    31   ~ 0
+D20
+Text Label 9550 8600 0    31   ~ 0
+A7
+Text Label 9550 8300 0    31   ~ 0
+A6
 Wire Wire Line
 	4200 5400 3200 5400
 Wire Wire Line
@@ -1668,6 +1696,8 @@ U 1 1 4F912E08
 P 2350 8450
 F 0 "X?" H 2350 8700 31  0000 C CNN
 F 1 "DIGITAL2" H 2350 8250 31  0000 C CNN
+F 2 "arduinoRF_connector_6pins" H 2350 8450 60  0001 C CNN
+F 3 "http://store.comet.bg/bg/Catalogue/Product/2997/" H 2350 8450 60  0001 C CNN
 	1    2350 8450
 	1    0    0    -1  
 $EndComp
@@ -2354,6 +2384,8 @@ U 1 1 4F8EA885
 P 10100 8500
 F 0 "X?" H 10050 8800 31  0000 C CNN
 F 1 "ANDIG" H 10100 8250 31  0000 C CNN
+F 2 "arduinoRF_connector_8pins" H 10100 8500 60  0001 C CNN
+F 3 "http://store.comet.bg/bg/Catalogue/Product/2997/" H 10100 8500 60  0001 C CNN
 	1    10100 8500
 	1    0    0    -1  
 $EndComp
@@ -2574,6 +2606,8 @@ U 1 1 4F8E8D9F
 P 11300 8450
 F 0 "X?" H 11300 8700 31  0000 C CNN
 F 1 "POWER" H 11300 8250 31  0000 C CNN
+F 2 "arduinoRF_connector_6pins" H 11300 8450 60  0001 C CNN
+F 3 "http://store.comet.bg/bg/Catalogue/Product/2997/" H 11300 8450 60  0001 C CNN
 	1    11300 8450
 	1    0    0    -1  
 $EndComp
@@ -2839,6 +2873,8 @@ U 1 1 4F8E81FA
 P 8200 8500
 F 0 "X?" H 8150 8800 31  0000 C CNN
 F 1 "DIGITAL1" H 8200 8250 31  0000 C CNN
+F 2 "arduinoRF_connector_8pins" H 8200 8500 60  0001 C CNN
+F 3 "http://store.comet.bg/bg/Catalogue/Product/2997/" H 8200 8500 60  0001 C CNN
 	1    8200 8500
 	1    0    0    -1  
 $EndComp
@@ -2848,6 +2884,8 @@ U 1 1 4F8E8114
 P 6250 8500
 F 0 "X?" H 6200 8800 31  0000 C CNN
 F 1 "DIGITAL0" H 6250 8250 31  0000 C CNN
+F 2 "arduinoRF_connector_8pins" H 6250 8500 60  0001 C CNN
+F 3 "http://store.comet.bg/bg/Catalogue/Product/2997/" H 6250 8500 60  0001 C CNN
 	1    6250 8500
 	1    0    0    -1  
 $EndComp
@@ -3021,6 +3059,8 @@ U 1 1 4F8D72CA
 P 4300 8450
 F 0 "X?" H 4250 8700 31  0000 C CNN
 F 1 "ANALOG" H 4300 8250 31  0000 C CNN
+F 2 "arduinoRF_connector_6pins" H 4300 8450 60  0001 C CNN
+F 3 "http://store.comet.bg/bg/Catalogue/Product/2997/" H 4300 8450 60  0001 C CNN
 	1    4300 8450
 	1    0    0    -1  
 $EndComp
@@ -3586,6 +3626,7 @@ U 1 1 4F84312F
 P 3500 4650
 F 0 "U?" H 3500 4450 60  0000 C CNN
 F 1 "SPI" H 3500 4850 60  0000 C CNN
+F 2 "pin_array_2x2" H 3500 4650 60  0001 C CNN
 F 3 "pin_strip_3" H 3500 4650 60  0001 C CNN
 	1    3500 4650
 	1    0    0    -1  
@@ -3619,7 +3660,7 @@ U 1 1 4F842C8A
 P 4850 4500
 F 0 "U?" H 4800 4350 60  0000 C CNN
 F 1 "ICSP" H 4850 4650 60  0000 C CNN
-F 2 "pin_strip_3x2" H 4850 4500 60  0001 C CNN
+F 2 "pin_array_3x2" H 4850 4500 60  0001 C CNN
 	1    4850 4500
 	1    0    0    -1  
 $EndComp
@@ -3672,6 +3713,8 @@ U 1 1 4F842088
 P 1350 5950
 F 0 "U?" H 1400 5750 31  0000 C CNN
 F 1 "Q16.000" H 1350 5800 31  0000 C CNN
+F 2 "crystal_xg6x3p5" H 1350 5950 60  0001 C CNN
+F 3 "http://store.comet.bg/bg/Catalogue/Product/6270/" H 1350 5950 60  0001 C CNN
 	1    1350 5950
 	0    1    1    0   
 $EndComp
