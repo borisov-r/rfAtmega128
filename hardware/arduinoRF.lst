@@ -1,0 +1,269 @@
+eeschema (2011-07-08 BZR 3044)-stable  >> Creation date: Thu 26 Apr 2012 04:23:35 PM EEST
+
+#Cmp ( order = Reference ) (with SubCmp)
+| C1         10p         ; c_0603      
+| C2         10p         ; c_0603      
+| C3         100n        ; c_0603      
+| C4         100n        ; c_0603      
+| C5         4.7u        ; c_0805      
+| C6         100n        ; c_0603      
+| C7         100n        ; c_0603      
+| C8         330n        ; c_0603      
+| C9         100n        ; c_0603      
+| C10        22u         ; c_0805      
+| C11        100n        ; c_0603      
+| C12        100n        ; c_0603      
+| C13        100n        ; c_0603      
+| C14        100n        ; c_0603      
+| C15        100n        ; c_0603      
+| C16        100n        ; c_0603      
+| C17        100n        ; c_0603      
+| C18        22p         ; c_0603      
+| C19        1.5p        ; c_0603      
+| J1         USB_B       ; USB_B       
+| J2         J3PIN       ; pin_strip_3 
+| J3         TEST_PAD    ; testpoint_2mm5
+| J4         TEST_PAD    ; testpoint_2mm5
+| R1         RES_0603    ;             
+| R2         RES_0603    ;             
+| R3         RES_0603    ;             
+| R4         RES_0603    ;             
+| R5         RES_0603    ;             
+| R6         RES_0603    ;             
+| R7         1.8K        ; r_0603      
+| R8         10k         ; r_0603      
+| R9         RES_0603    ; r_0603      
+| R10        1.8K        ; r_0603      
+| R11        100         ; r_0603      
+| R12        RES_0603    ; r_0603      
+| R13        RES_0603    ; r_0603      
+| R14        RES_0603    ; r_0603      
+| R15        RES_0603    ; r_0603      
+| R16        RES_0603    ; r_0603      
+| R17        RES_0603    ; r_0603      
+| R18        1K          ; r_0603      
+| R19        1K          ; r_0603      
+| R20        RES_0603    ; r_0603      
+| R21        RES_0603    ; r_0603      
+| R22        RES_0603    ; r_0603      
+| R23        RES_0603    ; r_0603      
+| R24        RES_0603    ; r_0603      
+| R25        RES_0603    ; r_0603      
+| R26        RES_0603    ; r_0603      
+| R27        RES_0603    ; r_0603      
+| R28        1K          ;             
+| R29        1K          ;             
+| R30        RES_0603    ;             
+| R31        RES_0603    ; r_0603      
+| R32        RES_0603    ; r_0603      
+| R33        RES_0603    ; r_0603      
+| R34        RES_0603    ; r_0603      
+| R35        RES_0603    ; r_0603      
+| R36        RES_0603    ; r_0603      
+| R37        RES_0603    ;             
+| R38        RES_0603    ;             
+| R39        RES_0603    ;             
+| R40        RES_0603    ;             
+| R41        RES_0603    ;             
+| R42        RES_0603    ;             
+| R43        RES_0603    ;             
+| R44        RES_0603    ;             
+| R45        RES_0603    ;             
+| U1         BAT54S      ;             
+| U2         BAT54S      ;             
+| U3         BAT54S      ;             
+| U4         BAT54S      ;             
+| U5         BAT54S      ;             
+| U6         BAT54S      ;             
+| U7         Q16.000     ; crystal_xg6x3p5
+| U8         1N5819 SMD GLX MELF; melf        
+| U9         I2C         ;             
+| U10        FT232RL     ;             
+| U11        BAT54S      ;             
+| U12        BA033CC0WFP ; TO252-5     
+| U13        BAT54S      ;             
+| U14A       ATMEGA128RFA1;             
+| U14B       ATMEGA128RFA1;             
+| U15        BAT54S      ;             
+| U16        BAT54S      ;             
+| U17        BAT54S      ;             
+| U18        BAT54S      ;             
+| U19        BAT54S      ;             
+| U20        BAT54S      ;             
+| U21        SPI         ; pin_array_2x2
+| U22        KP-2012ZGC  ;             
+| U23        KP-2012ZGC  ;             
+| U24        ICSP        ; pin_array_3x2
+| U25        BAT54S      ;             
+| U26        BAT54S      ;             
+| U27        BAT54S      ;             
+| U28        BAT54S      ;             
+| U29        BAT54S      ;             
+| U30        BAT54S      ;             
+| U31        BAT54S      ;             
+| U32        BAT54S      ;             
+| U33        KP-2012SURCK;             
+| U34        LED_RED     ;             
+| U35        BAT54S      ;             
+| U36        BAT54S      ;             
+| U37        BAT54S      ;             
+| U38        BAT54S      ;             
+| U39        BAT54S      ;             
+| U40        BAT54S      ;             
+| U41        KP-2012ZGC  ;             
+| U42        KP-2012ZGC  ;             
+| U43        RESET       ; PCB_PUSH    
+| U44        BAT54S      ;             
+| U45        BAT54S      ;             
+| U46        BAT54S      ;             
+| U47        BAT54S      ;             
+| U48        BAT54S      ;             
+| U49        BAT54S      ;             
+| U50        BAT54S      ;             
+| U51        BAT54S      ;             
+| U52        2450FB15L0001;             
+| X1         DCPWR_JACK2P5_PCB; YDJ-1136    
+| X2         BH16R       ; BH16R       
+| X3         DIGITAL2    ; arduinoRF_connector_6pins
+| X4         ANALOG      ; arduinoRF_connector_6pins
+| X5         DIGITAL0    ; arduinoRF_connector_8pins
+| X6         DIGITAL1    ; arduinoRF_connector_8pins
+| X7         ANDIG       ; arduinoRF_connector_8pins
+| X8         RP-SMA      ;             
+| X9         POWER       ; arduinoRF_connector_6pins
+#End Cmp
+
+#Cmp ( order = Value ) (with SubCmp)
+| 1.5p         C19       ; c_0603      
+| 1.8K         R7        ; r_0603      
+| 1.8K         R10       ; r_0603      
+| 100          R11       ; r_0603      
+| 100n         C3        ; c_0603      
+| 100n         C4        ; c_0603      
+| 100n         C6        ; c_0603      
+| 100n         C7        ; c_0603      
+| 100n         C9        ; c_0603      
+| 100n         C11       ; c_0603      
+| 100n         C12       ; c_0603      
+| 100n         C13       ; c_0603      
+| 100n         C14       ; c_0603      
+| 100n         C15       ; c_0603      
+| 100n         C16       ; c_0603      
+| 100n         C17       ; c_0603      
+| 10k          R8        ; r_0603      
+| 10p          C1        ; c_0603      
+| 10p          C2        ; c_0603      
+| 1K           R18       ; r_0603      
+| 1K           R19       ; r_0603      
+| 1K           R28       ;             
+| 1K           R29       ;             
+| 1N5819 SMD GLX MELF U8        ; melf        
+| 22p          C18       ; c_0603      
+| 22u          C10       ; c_0805      
+| 2450FB15L0001 U52       ;             
+| 330n         C8        ; c_0603      
+| 4.7u         C5        ; c_0805      
+| ANALOG       X4        ; arduinoRF_connector_6pins
+| ANDIG        X7        ; arduinoRF_connector_8pins
+| ATMEGA128RFA1 U14A      ;             
+| ATMEGA128RFA1 U14B      ;             
+| BA033CC0WFP  U12       ; TO252-5     
+| BAT54S       U1        ;             
+| BAT54S       U2        ;             
+| BAT54S       U3        ;             
+| BAT54S       U4        ;             
+| BAT54S       U5        ;             
+| BAT54S       U6        ;             
+| BAT54S       U11       ;             
+| BAT54S       U13       ;             
+| BAT54S       U15       ;             
+| BAT54S       U16       ;             
+| BAT54S       U17       ;             
+| BAT54S       U18       ;             
+| BAT54S       U19       ;             
+| BAT54S       U20       ;             
+| BAT54S       U25       ;             
+| BAT54S       U26       ;             
+| BAT54S       U27       ;             
+| BAT54S       U28       ;             
+| BAT54S       U29       ;             
+| BAT54S       U30       ;             
+| BAT54S       U31       ;             
+| BAT54S       U32       ;             
+| BAT54S       U35       ;             
+| BAT54S       U36       ;             
+| BAT54S       U37       ;             
+| BAT54S       U38       ;             
+| BAT54S       U39       ;             
+| BAT54S       U40       ;             
+| BAT54S       U44       ;             
+| BAT54S       U45       ;             
+| BAT54S       U46       ;             
+| BAT54S       U47       ;             
+| BAT54S       U48       ;             
+| BAT54S       U49       ;             
+| BAT54S       U50       ;             
+| BAT54S       U51       ;             
+| BH16R        X2        ; BH16R       
+| DCPWR_JACK2P5_PCB X1        ; YDJ-1136    
+| DIGITAL0     X5        ; arduinoRF_connector_8pins
+| DIGITAL1     X6        ; arduinoRF_connector_8pins
+| DIGITAL2     X3        ; arduinoRF_connector_6pins
+| FT232RL      U10       ;             
+| I2C          U9        ;             
+| ICSP         U24       ; pin_array_3x2
+| J3PIN        J2        ; pin_strip_3 
+| KP-2012SURCK U33       ;             
+| KP-2012ZGC   U22       ;             
+| KP-2012ZGC   U23       ;             
+| KP-2012ZGC   U41       ;             
+| KP-2012ZGC   U42       ;             
+| LED_RED      U34       ;             
+| POWER        X9        ; arduinoRF_connector_6pins
+| Q16.000      U7        ; crystal_xg6x3p5
+| RES_0603     R1        ;             
+| RES_0603     R2        ;             
+| RES_0603     R3        ;             
+| RES_0603     R4        ;             
+| RES_0603     R5        ;             
+| RES_0603     R6        ;             
+| RES_0603     R9        ; r_0603      
+| RES_0603     R12       ; r_0603      
+| RES_0603     R13       ; r_0603      
+| RES_0603     R14       ; r_0603      
+| RES_0603     R15       ; r_0603      
+| RES_0603     R16       ; r_0603      
+| RES_0603     R17       ; r_0603      
+| RES_0603     R20       ; r_0603      
+| RES_0603     R21       ; r_0603      
+| RES_0603     R22       ; r_0603      
+| RES_0603     R23       ; r_0603      
+| RES_0603     R24       ; r_0603      
+| RES_0603     R25       ; r_0603      
+| RES_0603     R26       ; r_0603      
+| RES_0603     R27       ; r_0603      
+| RES_0603     R30       ;             
+| RES_0603     R31       ; r_0603      
+| RES_0603     R32       ; r_0603      
+| RES_0603     R33       ; r_0603      
+| RES_0603     R34       ; r_0603      
+| RES_0603     R35       ; r_0603      
+| RES_0603     R36       ; r_0603      
+| RES_0603     R37       ;             
+| RES_0603     R38       ;             
+| RES_0603     R39       ;             
+| RES_0603     R40       ;             
+| RES_0603     R41       ;             
+| RES_0603     R42       ;             
+| RES_0603     R43       ;             
+| RES_0603     R44       ;             
+| RES_0603     R45       ;             
+| RESET        U43       ; PCB_PUSH    
+| RP-SMA       X8        ;             
+| SPI          U21       ; pin_array_2x2
+| TEST_PAD     J3        ; testpoint_2mm5
+| TEST_PAD     J4        ; testpoint_2mm5
+| USB_B        J1        ; USB_B       
+#End Cmp
+
+#End List
