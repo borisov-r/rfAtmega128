@@ -1,16 +1,6 @@
-update=Mon 23 Apr 2012 11:24:32 AM EEST
+update=Thu 17 May 2012 04:38:54 PM EEST
 version=1
-last_client=pcbnew
-[cvpcb]
-version=1
-NetITyp=0
-NetIExt=.net
-PkgIExt=.pkg
-NetDir=
-LibDir=
-NetType=0
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [eeschema]
 version=1
 LibDir=
@@ -66,7 +56,6 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -78,3 +67,13 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=numato_kicad_lib/arduinoRF_modules
+LibName12=numato_kicad_lib/w_pin_strip
+LibName13=numato_kicad_lib/w_smd_cap
+LibName14=numato_kicad_lib/w_smd_resistors
+LibName15=arduinoRFmodlib
+LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

@@ -1,1286 +1,731 @@
-# EESchema Netlist Version 1.1 created  Thu 26 Apr 2012 04:22:56 PM EEST
+# EESchema Netlist Version 1.1 created  Thu 17 May 2012 04:39:35 PM EEST
 (
- ( /4F912E08 arduinoRF_connector_6pins  X3 DIGITAL2 {Lib=CON6}
-  (    1 /D14 )
-  (    2 /D15 )
-  (    3 /D16 )
-  (    4 /D17 )
-  (    5 /D18 )
-  (    6 /D19 )
- )
- ( /4F912DDB $noname  R1 RES_0603 {Lib=RES_0603}
-  (    1 /D3PIN0 )
-  (    2 /D14 )
- )
- ( /4F912DDA $noname  U1 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D3PIN0 )
- )
- ( /4F912DD9 $noname  U2 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D3PIN1 )
- )
- ( /4F912DD8 $noname  R2 RES_0603 {Lib=RES_0603}
-  (    1 /D3PIN1 )
-  (    2 /D15 )
- )
- ( /4F912DD7 $noname  R3 RES_0603 {Lib=RES_0603}
-  (    1 /D3PIN2 )
-  (    2 /D16 )
- )
- ( /4F912DD6 $noname  U3 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D3PIN2 )
- )
- ( /4F912DD5 $noname  U4 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D3PIN3 )
- )
- ( /4F912DD4 $noname  R4 RES_0603 {Lib=RES_0603}
-  (    1 /D3PIN3 )
-  (    2 /D17 )
- )
- ( /4F912DD3 $noname  R6 RES_0603 {Lib=RES_0603}
-  (    1 /D3PIN5 )
-  (    2 /D19 )
- )
- ( /4F912DD2 $noname  U6 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D3PIN5 )
- )
- ( /4F912DD1 $noname  U5 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D3PIN4 )
- )
- ( /4F912DD0 $noname  R5 RES_0603 {Lib=RES_0603}
-  (    1 /D3PIN4 )
-  (    2 /D18 )
- )
- ( /4F912422 c_0805  C10 22u {Lib=CAP_0603}
-  (    1 /VCC )
-  (    2 /GND )
- )
- ( /4F912399 c_0603  C8 330n {Lib=CAP_0603}
-  (    1 /VIN )
-  (    2 /GND )
- )
- ( /4F8D3135 c_0603  C4 100n {Lib=CAP_0603}
-  (    1 /5VDC )
-  (    2 /GND )
- )
- ( /4F91131F r_0603  R36 RES_0603 {Lib=RES_0603}
-  (    1 /D1PIN13 )
-  (    2 /D13 )
- )
- ( /4F91131D r_0603  R35 RES_0603 {Lib=RES_0603}
-  (    1 /D1PIN12 )
-  (    2 /D12 )
- )
- ( /4F91131C r_0603  R34 RES_0603 {Lib=RES_0603}
-  (    1 /D1PIN11 )
-  (    2 /D11 )
- )
- ( /4F91131B r_0603  R33 RES_0603 {Lib=RES_0603}
-  (    1 /D1PIN10 )
-  (    2 /D10 )
- )
- ( /4F911319 r_0603  R32 RES_0603 {Lib=RES_0603}
-  (    1 /D1PIN9 )
-  (    2 /D9 )
- )
- ( /4F911315 r_0603  R31 RES_0603 {Lib=RES_0603}
-  (    1 /D1PIN8 )
-  (    2 /D8 )
- )
- ( /4F9112FB r_0603  R27 RES_0603 {Lib=RES_0603}
-  (    1 /D0PIN7 )
-  (    2 /D7 )
- )
- ( /4F9112F5 r_0603  R26 RES_0603 {Lib=RES_0603}
-  (    1 /D0PIN6 )
-  (    2 /D6 )
- )
- ( /4F9112F3 r_0603  R25 RES_0603 {Lib=RES_0603}
-  (    1 /D0PIN5 )
-  (    2 /D5 )
- )
- ( /4F9112F2 r_0603  R24 RES_0603 {Lib=RES_0603}
-  (    1 /D0PIN4 )
-  (    2 /D4 )
- )
- ( /4F9112E8 r_0603  R23 RES_0603 {Lib=RES_0603}
-  (    1 /D0PIN3 )
-  (    2 /D3 )
- )
- ( /4F9112E2 r_0603  R22 RES_0603 {Lib=RES_0603}
-  (    1 /D0PIN2 )
-  (    2 /D2 )
- )
- ( /4F9112E1 r_0603  R21 RES_0603 {Lib=RES_0603}
-  (    1 /TXD )
-  (    2 /D1 )
- )
- ( /4F900DFD testpoint_2mm5  J3 TEST_PAD {Lib=TEST_PAD}
-  (    1 /VCC )
- )
- ( /4F900DC1 testpoint_2mm5  J4 TEST_PAD {Lib=TEST_PAD}
-  (    1 /GND )
- )
- ( /4F9002B3 USB_B  J1 USB_B {Lib=USB_B}
-  (    1 /5VDC )
-  (    2 /DM )
-  (    3 /DP )
-  (    4 /GND )
-  (    5 /GND )
-  (    6 /GND )
- )
- ( /4F8EB769 $noname  X8 RP-SMA {Lib=RP-SMA}
-  (    0 /RFOUT )
-  (    1 /GND )
-  (    2 /GND )
-  (    3 /GND )
-  (    4 /GND )
- )
- ( /4F8EB3AC c_0603  C14 100n {Lib=CAP_0603}
-  (    1 /VCC )
-  (    2 /GND )
- )
- ( /4F8EB371 c_0603  C15 100n {Lib=CAP_0603}
-  (    1 /VCC )
-  (    2 /GND )
- )
- ( /4F8EB36D c_0603  C16 100n {Lib=CAP_0603}
-  (    1 /VCC )
-  (    2 /GND )
- )
- ( /4F8EB336 c_0603  C17 100n {Lib=CAP_0603}
-  (    1 /VCC )
-  (    2 /GND )
- )
- ( /4F8EB2F3 c_0603  C11 100n {Lib=CAP_0603}
-  (    1 /VCC )
-  (    2 /GND )
- )
- ( /4F8EB1A1 c_0603  C12 100n {Lib=CAP_0603}
-  (    1 N-000062 )
-  (    2 /GND )
- )
- ( /4F8EAE86 c_0603  C19 1.5p {Lib=CAP_0603}
-  (    1 /RFOUT )
-  (    2 /GND )
- )
- ( /4F8EAE25 c_0603  C18 22p {Lib=CAP_0603}
-  (    1 N-000039 )
-  (    2 /GND )
- )
- ( /4F8EAB6A $noname  U34 LED_RED {Lib=LED_RED}
-  (    1 /D1PIN13 )
-  (    2 N-000025 )
- )
- ( /4F8EAB69 $noname  R29 1K {Lib=RES_0603}
-  (    1 N-000025 )
-  (    2 /GND )
- )
- ( /4F8EA9AF $noname  U13 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /SCL )
- )
- ( /4F8EA98F $noname  U11 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /SDA )
- )
- ( /4F8EA885 arduinoRF_connector_8pins  X7 ANDIG {Lib=CON8}
-  (    1 /A6 )
-  (    2 /A7 )
-  (    3 /D20 )
-  (    4 /D21 )
-  (    5 /D22 )
-  (    6 /D23 )
-  (    7 /D24 )
-  (    8 /D25 )
- )
- ( /4F8EA830 $noname  R45 RES_0603 {Lib=RES_0603}
-  (    1 /D2PIN5 )
-  (    2 /D25 )
- )
- ( /4F8EA82F $noname  U51 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D2PIN5 )
- )
- ( /4F8EA82E $noname  U50 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D2PIN4 )
- )
- ( /4F8EA82D $noname  R44 RES_0603 {Lib=RES_0603}
-  (    1 /D2PIN4 )
-  (    2 /D24 )
- )
- ( /4F8EA81A $noname  R42 RES_0603 {Lib=RES_0603}
-  (    1 /D2PIN2 )
-  (    2 /D22 )
- )
- ( /4F8EA819 $noname  U48 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D2PIN2 )
- )
- ( /4F8EA818 $noname  U49 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D2PIN3 )
- )
- ( /4F8EA817 $noname  R43 RES_0603 {Lib=RES_0603}
-  (    1 /D2PIN3 )
-  (    2 /D23 )
- )
- ( /4F8EA56E r_0603  R10 1.8K {Lib=RES_0603}
-  (    1 /SCL )
-  (    2 /VCC )
- )
- ( /4F8EA569 r_0603  R7 1.8K {Lib=RES_0603}
-  (    1 /SDA )
-  (    2 /VCC )
- )
- ( /4F8EA195 $noname  R37 RES_0603 {Lib=RES_0603}
-  (    1 /GND )
-  (    2 N-000044 )
- )
- ( /4F8EA18A $noname  R30 RES_0603 {Lib=RES_0603}
-  (    1 /GND )
-  (    2 N-000046 )
- )
- ( /4F8E93FA pin_strip_3  J2 J3PIN {Lib=J3PIN}
-  (    1 /5VDC )
-  (    2 /VIN )
-  (    3 /VEXT )
- )
- ( /4F8E8D9F arduinoRF_connector_6pins  X9 POWER {Lib=CON6}
-  (    1 /RESET )
-  (    2 /VCC )
-  (    3 /5VDC )
-  (    4 /GND )
-  (    5 /GND )
-  (    6 /VIN )
- )
- ( /4F8E8B1B $noname  R41 RES_0603 {Lib=RES_0603}
-  (    1 /D2PIN1 )
-  (    2 /D21 )
- )
- ( /4F8E8B1A $noname  U47 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D2PIN1 )
- )
- ( /4F8E8B19 $noname  U46 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D2PIN0 )
- )
- ( /4F8E8B18 $noname  R40 RES_0603 {Lib=RES_0603}
-  (    1 /D2PIN0 )
-  (    2 /D20 )
- )
- ( /4F8E8B17 $noname  R39 RES_0603 {Lib=RES_0603}
-  (    1 /A1PIN1 )
-  (    2 /A7 )
- )
- ( /4F8E8B16 $noname  U45 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /A1PIN1 )
- )
- ( /4F8E8B15 $noname  U44 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /A1PIN0 )
- )
- ( /4F8E8B14 $noname  R38 RES_0603 {Lib=RES_0603}
-  (    1 /A1PIN0 )
-  (    2 /A6 )
- )
- ( /4F8E8394 c_0603  C13 100n {Lib=CAP_0603}
-  (    1 /AREF )
-  (    2 /GND )
- )
- ( /4F8E8209 $noname  U35 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D1PIN8 )
- )
- ( /4F8E8208 $noname  U36 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D1PIN9 )
- )
- ( /4F8E8205 $noname  U37 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D1PIN10 )
- )
- ( /4F8E8204 $noname  U38 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D1PIN11 )
- )
- ( /4F8E8201 $noname  U39 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D1PIN12 )
- )
- ( /4F8E8200 $noname  U40 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D1PIN13 )
- )
- ( /4F8E81FA arduinoRF_connector_8pins  X6 DIGITAL1 {Lib=CON8}
-  (    1 /D8 )
-  (    2 /D9 )
-  (    3 /D10 )
-  (    4 /D11 )
-  (    5 /D12 )
-  (    6 /D13 )
-  (    7 /GND )
-  (    8 /AREF )
- )
- ( /4F8E8114 arduinoRF_connector_8pins  X5 DIGITAL0 {Lib=CON8}
-  (    1 /D0 )
-  (    2 /D1 )
-  (    3 /D2 )
-  (    4 /D3 )
-  (    5 /D4 )
-  (    6 /D5 )
-  (    7 /D6 )
-  (    8 /D7 )
- )
- ( /4F8E80E4 $noname  U32 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D0PIN7 )
- )
- ( /4F8E80CA $noname  U31 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D0PIN6 )
- )
- ( /4F8E80B0 $noname  U30 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D0PIN5 )
- )
- ( /4F8E809D $noname  U29 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D0PIN4 )
- )
- ( /4F8E8071 $noname  U28 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D0PIN3 )
- )
- ( /4F8E8037 $noname  U27 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /D0PIN2 )
- )
- ( /4F8E8021 $noname  U26 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /TXD )
- )
- ( /4F8E703A $noname  U25 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /RXD )
- )
- ( /4F8E7039 r_0603  R20 RES_0603 {Lib=RES_0603}
-  (    1 /RXD )
-  (    2 /D0 )
- )
- ( /4F8D72CA arduinoRF_connector_6pins  X4 ANALOG {Lib=CON6}
-  (    1 /A0 )
-  (    2 /A1 )
-  (    3 /A2 )
-  (    4 /A3 )
-  (    5 /A4 )
-  (    6 /A5 )
- )
- ( /4F8D7149 $noname  U20 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /A0PIN5 )
- )
- ( /4F8D7148 r_0603  R17 RES_0603 {Lib=RES_0603}
-  (    1 /A0PIN5 )
-  (    2 /A5 )
- )
- ( /4F8D7121 r_0603  R16 RES_0603 {Lib=RES_0603}
-  (    1 /A0PIN4 )
-  (    2 /A4 )
- )
- ( /4F8D7120 $noname  U19 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /A0PIN4 )
- )
- ( /4F8D711A $noname  U18 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /A0PIN3 )
- )
- ( /4F8D7119 r_0603  R15 RES_0603 {Lib=RES_0603}
-  (    1 /A0PIN3 )
-  (    2 /A3 )
- )
- ( /4F8D7113 r_0603  R14 RES_0603 {Lib=RES_0603}
-  (    1 /A0PIN2 )
-  (    2 /A2 )
- )
- ( /4F8D7112 $noname  U17 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /A0PIN2 )
- )
- ( /4F8D7074 $noname  U16 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /A0PIN1 )
- )
- ( /4F8D7073 r_0603  R13 RES_0603 {Lib=RES_0603}
-  (    1 /A0PIN1 )
-  (    2 /A1 )
- )
- ( /4F8D6456 r_0603  R8 10k {Lib=RES_0603}
-  (    1 /RESET )
-  (    2 /VCC )
- )
- ( /4F8D5D18 c_0603  C2 10p {Lib=CAP_0603}
-  (    1 N-000041 )
-  (    2 /GND )
- )
- ( /4F8D5CFD c_0603  C1 10p {Lib=CAP_0603}
-  (    1 N-000043 )
-  (    2 /GND )
- )
- ( /4F8D4942 BH16R  X2 BH16R {Lib=CON16}
-  (    1 /RXD )
-  (    2 /TXD )
-  (    3 /RTS )
-  (    4 /CTS )
-  (    5 /DTR )
-  (    6 /DSR )
-  (    7 /DCD )
-  (    8 /RI )
-  (    9 /CBUS4 )
-  (   10 /CBUS3 )
-  (   11 /CBUS2 )
-  (   12 /CBUS1 )
-  (   13 /CBUS0 )
-  (   14 /GND )
-  (   15 /VCC )
-  (   16 /5VDC )
- )
- ( /4F8D4422 c_0603  C9 100n {Lib=CAP_0603}
-  (    1 /DTR )
-  (    2 /RESET )
- )
- ( /4F8D4361 r_0603  R11 100 {Lib=RES_0603}
-  (    1 /RTS )
-  (    2 /RESET )
- )
- ( /4F8D40F2 r_0603  R19 1K {Lib=RES_0603}
-  (    1 N-000091 )
-  (    2 /VCC )
- )
- ( /4F8D40EC r_0603  R18 1K {Lib=RES_0603}
-  (    1 N-000090 )
-  (    2 /VCC )
- )
- ( /4F8D40C6 $noname  U23 KP-2012ZGC {Lib=LED_GREEN}
-  (    1 N-000091 )
-  (    2 /CBUS1 )
- )
- ( /4F8D409F $noname  U22 KP-2012ZGC {Lib=LED_GREEN}
-  (    1 N-000090 )
-  (    2 /CBUS0 )
- )
- ( /4F8D33EB c_0603  C7 100n {Lib=CAP_0603}
-  (    1 N-000050 )
-  (    2 /GND )
- )
- ( /4F8D3244 c_0805  C5 4.7u {Lib=CAP_0603_POL}
-  (    1 /5VDC )
-  (    2 /GND )
- )
- ( /4F8D313B c_0603  C3 100n {Lib=CAP_0603}
-  (    1 N-000050 )
-  (    2 /GND )
- )
- ( /4F8D2FB7 c_0603  C6 100n {Lib=CAP_0603}
-  (    1 N-000096 )
-  (    2 /GND )
- )
- ( /4F8D2AF7 YDJ-1136  X1 DCPWR_JACK2P5_PCB {Lib=DCPWR_JACK2P5_PCB}
-  (    1 N-000057 )
-  (    2 /GND )
-  (    3 ? )
- )
- ( /4F8D2200 r_0603  R9 RES_0603 {Lib=RES_0603}
-  (    1 /VIN )
-  (    2 /GND )
- )
- ( /4F8D1A56 $noname  R28 1K {Lib=RES_0603}
-  (    1 N-000058 )
-  (    2 /GND )
- )
- ( /4F8D1A30 $noname  U33 KP-2012SURCK {Lib=LED_RED}
-  (    1 /VCC )
-  (    2 N-000058 )
- )
- ( /4F8432E7 PCB_PUSH  U43 RESET {Lib=BUTTON}
-  (    1 /RESET )
-  (    2 /GND )
-  (    3 /RESET )
-  (    4 /GND )
- )
- ( /4F84312F pin_array_2x2  U21 SPI {Lib=SPI}
-  (    1 /D1PIN13 )
-  (    2 /D1PIN12 )
-  (    3 /D2PIN1 )
-  (    4 /GND )
- )
- ( /4F842F91 melf  U8 1N5819_SMD_GLX_MELF {Lib=DIODE}
-  (    1 N-000057 )
-  (    2 /VEXT )
- )
- ( /4F842DF5 $noname  U9 I2C {Lib=I2C}
-  (    1 /SDA )
-  (    2 /SCL )
-  (    3 /VCC )
-  (    4 /GND )
- )
- ( /4F842C8A pin_array_3x2  U24 ICSP {Lib=ICSP}
-  (    1 /D1PIN12 )
-  (    2 /VCC )
-  (    3 /D1PIN13 )
-  (    4 /D2PIN1 )
-  (    5 /RESET )
-  (    6 /GND )
- )
- ( /4F842AEE $noname  U41 KP-2012ZGC {Lib=LED_GREEN}
-  (    1 /RFRX )
-  (    2 N-000046 )
- )
- ( /4F842A15 $noname  U42 KP-2012ZGC {Lib=LED_RED}
-  (    1 /RFTX )
-  (    2 N-000044 )
- )
- ( /4F8426CD r_0603  R12 RES_0603 {Lib=RES_0603}
-  (    1 /A0PIN0 )
-  (    2 /A0 )
- )
- ( /4F842680 $noname  U15 BAT54S {Lib=BAT54S}
-  (    1 /GND )
-  (    2 /VCC )
-  (    3 /A0PIN0 )
- )
- ( /4F842088 crystal_xg6x3p5  U7 Q16.000 {Lib=Q16.000}
-  (    1 N-000043 )
-  (    2 ? )
-  (    3 N-000041 )
-  (    4 ? )
- )
- ( /4F841D45 $noname  U52 2450FB15L0001 {Lib=2450FB15L0001}
-  (    1 /RFOUT )
-  (    2 N-000039 )
-  (    3 N-000038 )
-  (    4 N-000063 )
-  (    5 /GND )
-  (    6 /GND )
- )
- ( /4F841679 TO252-5  U12 BA033CC0WFP {Lib=BA033CC0WFP}
-  (    1 /GND )
-  (    2 /VIN )
-  (    3 ? )
-  (    4 /VCC )
-  (    5 ? )
-  (    6 /GND )
- )
- ( /4F841413 $noname  U10 FT232RL {Lib=FT232RL}
-  (    1 /RXD )
-  (    2 /DTR )
-  (    3 /RTS )
-  (    4 N-000050 )
-  (    5 /TXD )
-  (    6 /RI )
-  (    7 /GND )
-  (    8 ? )
-  (    9 /DSR )
-  (   10 /DCD )
-  (   11 /CTS )
-  (   12 /CBUS4 )
-  (   13 /CBUS2 )
-  (   14 /CBUS3 )
-  (   15 /DP )
-  (   16 /DM )
-  (   17 N-000050 )
-  (   18 /GND )
-  (   19 N-000096 )
-  (   20 /5VDC )
-  (   21 /GND )
-  (   22 /CBUS1 )
-  (   23 /CBUS0 )
-  (   24 ? )
-  (   25 /GND )
-  (   26 /GND )
-  (   27 ? )
-  (   28 ? )
- )
- ( /4F7AD218 $noname  U14 ATMEGA128RFA1 {Lib=ATMEGA128RFA1}
-  (    1 /A0PIN2 )
-  (    2 /A0PIN3 )
-  (    3 /A0PIN4 )
-  (    4 /A0PIN5 )
-  (    5 /A1PIN0 )
-  (    6 /A1PIN1 )
-  (    7 /GND )
-  (    8 N-000063 )
-  (    9 N-000038 )
-  (   10 /GND )
-  (   11 /GND )
-  (   12 /RESET )
-  (   13 ? )
-  (   14 /D3PIN0 )
-  (   15 /D3PIN1 )
-  (   16 /D3PIN2 )
-  (   17 /D3PIN3 )
-  (   18 /D3PIN4 )
-  (   19 /D3PIN5 )
-  (   20 /GND )
-  (   21 /VCC )
-  (   22 /VCC )
-  (   23 /VCC )
-  (   24 /GND )
-  (   25 /SCL )
-  (   26 /SDA )
-  (   27 /D2PIN2 )
-  (   28 /D2PIN3 )
-  (   29 /D2PIN4 )
-  (   30 /RFRX )
-  (   31 /RFTX )
-  (   32 /D2PIN5 )
-  (   33 /VCC )
-  (   34 /VCC )
-  (   35 /GND )
-  (   36 /D2PIN0 )
-  (   37 /D1PIN13 )
-  (   38 /D2PIN1 )
-  (   39 /D1PIN12 )
-  (   40 /D1PIN8 )
-  (   41 /D1PIN11 )
-  (   42 /D1PIN10 )
-  (   43 /D1PIN9 )
-  (   44 /VCC )
-  (   45 /GND )
-  (   46 /RXD )
-  (   47 /TXD )
-  (   48 /D0PIN2 )
-  (   49 /D0PIN3 )
-  (   50 /D0PIN4 )
-  (   51 /D0PIN5 )
-  (   52 /D0PIN6 )
-  (   53 /D0PIN7 )
-  (   54 /VCC )
-  (   55 /GND )
-  (   56 N-000041 )
-  (   57 N-000043 )
-  (   58 /GND )
-  (   59 /VCC )
-  (   60 N-000062 )
-  (   61 /GND )
-  (   62 /AREF )
-  (   63 /A0PIN0 )
-  (   64 /A0PIN1 )
-  (   65 /GND )
+ ( /4F8D5CFD c_0603 C1 10p
+  ( 1 N-000043 )
+  ( 2 /GND )
+ )
+ ( /4F8D5D18 c_0603 C2 10p
+  ( 1 N-000041 )
+  ( 2 /GND )
+ )
+ ( /4F8D313B c_0603 C3 100n
+  ( 1 N-000050 )
+  ( 2 /GND )
+ )
+ ( /4F8D3135 c_0603 C4 100n
+  ( 1 /5VDC )
+  ( 2 /GND )
+ )
+ ( /4F8D3244 c_0805 C5 4.7u
+  ( 1 /5VDC )
+  ( 2 /GND )
+ )
+ ( /4F8D2FB7 c_0603 C6 100n
+  ( 1 N-000096 )
+  ( 2 /GND )
+ )
+ ( /4F8D33EB c_0603 C7 100n
+  ( 1 N-000050 )
+  ( 2 /GND )
+ )
+ ( /4F912399 c_0603 C8 330n
+  ( 1 /VIN )
+  ( 2 /GND )
+ )
+ ( /4F8D4422 c_0603 C9 100n
+  ( 1 /DTR )
+  ( 2 /RESET )
+ )
+ ( /4F912422 c_0805 C10 22u
+  ( 1 /VCC )
+  ( 2 /GND )
+ )
+ ( /4F8EB2F3 c_0603 C11 100n
+  ( 1 /VCC )
+  ( 2 /GND )
+ )
+ ( /4F8EB1A1 c_0603 C12 100n
+  ( 1 N-000062 )
+  ( 2 /GND )
+ )
+ ( /4F8E8394 c_0603 C13 100n
+  ( 1 /AREF )
+  ( 2 /GND )
+ )
+ ( /4F8EB3AC c_0603 C14 100n
+  ( 1 /VCC )
+  ( 2 /GND )
+ )
+ ( /4F8EB371 c_0603 C15 100n
+  ( 1 /VCC )
+  ( 2 /GND )
+ )
+ ( /4F8EB36D c_0603 C16 100n
+  ( 1 /VCC )
+  ( 2 /GND )
+ )
+ ( /4F8EB336 c_0603 C17 100n
+  ( 1 /VCC )
+  ( 2 /GND )
+ )
+ ( /4F8EAE25 c_0603 C18 22p
+  ( 1 N-000039 )
+  ( 2 /GND )
+ )
+ ( /4F8EAE86 c_0603 C19 1.5p
+  ( 1 /RFOUT )
+  ( 2 /GND )
+ )
+ ( /4F9002B3 USB_B J1 USB_B
+  ( 1 /5VDC )
+  ( 2 /DM )
+  ( 3 /DP )
+  ( 4 /GND )
+  ( 5 /GND )
+  ( 6 /GND )
+ )
+ ( /4F8E93FA pin_strip_3 J2 J3PIN
+  ( 1 /5VDC )
+  ( 2 /VIN )
+  ( 3 /VEXT )
+ )
+ ( /4F900DFD testpoint_2mm5 J3 TEST_PAD
+  ( 1 /VCC )
+ )
+ ( /4F900DC1 testpoint_2mm5 J4 TEST_PAD
+  ( 1 /GND )
+ )
+ ( /4F912DDB r_0603 R1 RES_0603
+  ( 1 /D3PIN0 )
+  ( 2 /D14 )
+ )
+ ( /4F912DD8 r_0603 R2 RES_0603
+  ( 1 /D3PIN1 )
+  ( 2 /D15 )
+ )
+ ( /4F912DD7 r_0603 R3 RES_0603
+  ( 1 /D3PIN2 )
+  ( 2 /D16 )
+ )
+ ( /4F912DD4 r_0603 R4 RES_0603
+  ( 1 /D3PIN3 )
+  ( 2 /D17 )
+ )
+ ( /4F912DD0 r_0603 R5 RES_0603
+  ( 1 /D3PIN4 )
+  ( 2 /D18 )
+ )
+ ( /4F912DD3 r_0603 R6 RES_0603
+  ( 1 /D3PIN5 )
+  ( 2 /D19 )
+ )
+ ( /4F8EA569 r_0603 R7 1.8K
+  ( 1 /SDA )
+  ( 2 /VCC )
+ )
+ ( /4F8D6456 r_0603 R8 10k
+  ( 1 /RESET )
+  ( 2 /VCC )
+ )
+ ( /4F8D2200 r_0603 R9 RES_0603
+  ( 1 /VIN )
+  ( 2 /GND )
+ )
+ ( /4F8EA56E r_0603 R10 1.8K
+  ( 1 /SCL )
+  ( 2 /VCC )
+ )
+ ( /4F8D4361 r_0603 R11 100
+  ( 1 /RTS )
+  ( 2 /RESET )
+ )
+ ( /4F8426CD r_0603 R12 RES_0603
+  ( 1 /A0PIN0 )
+  ( 2 /A0 )
+ )
+ ( /4F8D7073 r_0603 R13 RES_0603
+  ( 1 /A0PIN1 )
+  ( 2 /A1 )
+ )
+ ( /4F8D7113 r_0603 R14 RES_0603
+  ( 1 /A0PIN2 )
+  ( 2 /A2 )
+ )
+ ( /4F8D7119 r_0603 R15 RES_0603
+  ( 1 /A0PIN3 )
+  ( 2 /A3 )
+ )
+ ( /4F8D7121 r_0603 R16 RES_0603
+  ( 1 /A0PIN4 )
+  ( 2 /A4 )
+ )
+ ( /4F8D7148 r_0603 R17 RES_0603
+  ( 1 /A0PIN5 )
+  ( 2 /A5 )
+ )
+ ( /4F8D40EC r_0603 R18 1K
+  ( 1 N-000090 )
+  ( 2 /VCC )
+ )
+ ( /4F8D40F2 r_0603 R19 1K
+  ( 1 N-000091 )
+  ( 2 /VCC )
+ )
+ ( /4F8E7039 r_0603 R20 RES_0603
+  ( 1 /RXD )
+  ( 2 /D0 )
+ )
+ ( /4F9112E1 r_0603 R21 RES_0603
+  ( 1 /TXD )
+  ( 2 /D1 )
+ )
+ ( /4F9112E2 r_0603 R22 RES_0603
+  ( 1 /D0PIN2 )
+  ( 2 /D2 )
+ )
+ ( /4F9112E8 r_0603 R23 RES_0603
+  ( 1 /D0PIN3 )
+  ( 2 /D3 )
+ )
+ ( /4F9112F2 r_0603 R24 RES_0603
+  ( 1 /D0PIN4 )
+  ( 2 /D4 )
+ )
+ ( /4F9112F3 r_0603 R25 RES_0603
+  ( 1 /D0PIN5 )
+  ( 2 /D5 )
+ )
+ ( /4F9112F5 r_0603 R26 RES_0603
+  ( 1 /D0PIN6 )
+  ( 2 /D6 )
+ )
+ ( /4F9112FB r_0603 R27 RES_0603
+  ( 1 /D0PIN7 )
+  ( 2 /D7 )
+ )
+ ( /4F8D1A56 r_0603 R28 1K
+  ( 1 N-000058 )
+  ( 2 /GND )
+ )
+ ( /4F8EAB69 r_0603 R29 1K
+  ( 1 N-000025 )
+  ( 2 /GND )
+ )
+ ( /4F8EA18A r_0603 R30 RES_0603
+  ( 1 /GND )
+  ( 2 N-000046 )
+ )
+ ( /4F911315 r_0603 R31 RES_0603
+  ( 1 /D1PIN8 )
+  ( 2 /D8 )
+ )
+ ( /4F911319 r_0603 R32 RES_0603
+  ( 1 /D1PIN9 )
+  ( 2 /D9 )
+ )
+ ( /4F91131B r_0603 R33 RES_0603
+  ( 1 /D1PIN10 )
+  ( 2 /D10 )
+ )
+ ( /4F91131C r_0603 R34 RES_0603
+  ( 1 /D1PIN11 )
+  ( 2 /D11 )
+ )
+ ( /4F91131D r_0603 R35 RES_0603
+  ( 1 /D1PIN12 )
+  ( 2 /D12 )
+ )
+ ( /4F91131F r_0603 R36 RES_0603
+  ( 1 /D1PIN13 )
+  ( 2 /D13 )
+ )
+ ( /4F8EA195 r_0603 R37 RES_0603
+  ( 1 /GND )
+  ( 2 N-000044 )
+ )
+ ( /4F8E8B14 r_0603 R38 RES_0603
+  ( 1 /A1PIN0 )
+  ( 2 /A6 )
+ )
+ ( /4F8E8B17 r_0603 R39 RES_0603
+  ( 1 /A1PIN1 )
+  ( 2 /A7 )
+ )
+ ( /4F8E8B18 r_0603 R40 RES_0603
+  ( 1 /D2PIN0 )
+  ( 2 /D20 )
+ )
+ ( /4F8E8B1B r_0603 R41 RES_0603
+  ( 1 /D2PIN1 )
+  ( 2 /D21 )
+ )
+ ( /4F8EA81A r_0603 R42 RES_0603
+  ( 1 /D2PIN2 )
+  ( 2 /D22 )
+ )
+ ( /4F8EA817 r_0603 R43 RES_0603
+  ( 1 /D2PIN3 )
+  ( 2 /D23 )
+ )
+ ( /4F8EA82D r_0603 R44 RES_0603
+  ( 1 /D2PIN4 )
+  ( 2 /D24 )
+ )
+ ( /4F8EA830 r_0603 R45 RES_0603
+  ( 1 /D2PIN5 )
+  ( 2 /D25 )
+ )
+ ( /4F912DDA SOT23EBC U1 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D3PIN0 )
+ )
+ ( /4F912DD9 SOT23EBC U2 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D3PIN1 )
+ )
+ ( /4F912DD6 SOT23EBC U3 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D3PIN2 )
+ )
+ ( /4F912DD5 SOT23EBC U4 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D3PIN3 )
+ )
+ ( /4F912DD1 SOT23EBC U5 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D3PIN4 )
+ )
+ ( /4F912DD2 SOT23EBC U6 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D3PIN5 )
+ )
+ ( /4F842088 crystal_xg6x3p5 U7 Q16.000
+  ( 1 N-000043 )
+  ( 2 ? )
+  ( 3 N-000041 )
+  ( 4 ? )
+ )
+ ( /4F842F91 melf U8 1N5819_SMD_GLX_MELF
+  ( 1 N-000057 )
+  ( 2 /VEXT )
+ )
+ ( /4F842DF5 pin_strip_2x2 U9 I2C
+  ( 1 /SDA )
+  ( 2 /SCL )
+  ( 3 /VCC )
+  ( 4 /GND )
+ )
+ ( /4F841413 SSOP28 U10 FT232RL
+  ( 1 /RXD )
+  ( 2 /DTR )
+  ( 3 /RTS )
+  ( 4 N-000050 )
+  ( 5 /TXD )
+  ( 6 /RI )
+  ( 7 /GND )
+  ( 8 ? )
+  ( 9 /DSR )
+  ( 10 /DCD )
+  ( 11 /CTS )
+  ( 12 /CBUS4 )
+  ( 13 /CBUS2 )
+  ( 14 /CBUS3 )
+  ( 15 /DP )
+  ( 16 /DM )
+  ( 17 N-000050 )
+  ( 18 /GND )
+  ( 19 N-000096 )
+  ( 20 /5VDC )
+  ( 21 /GND )
+  ( 22 /CBUS1 )
+  ( 23 /CBUS0 )
+  ( 24 ? )
+  ( 25 /GND )
+  ( 26 /GND )
+  ( 27 ? )
+  ( 28 ? )
+ )
+ ( /4F8EA98F SOT23EBC U11 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /SDA )
+ )
+ ( /4F841679 TO252-5 U12 BA033CC0WFP
+  ( 1 /GND )
+  ( 2 /VIN )
+  ( 3 ? )
+  ( 4 /VCC )
+  ( 5 ? )
+  ( 6 /GND )
+ )
+ ( /4F8EA9AF SOT23EBC U13 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /SCL )
+ )
+ ( /4F7AD218 atmega128rfa1 U14 ATMEGA128RFA1
+  ( 1 /A0PIN2 )
+  ( 2 /A0PIN3 )
+  ( 3 /A0PIN4 )
+  ( 4 /A0PIN5 )
+  ( 5 /A1PIN0 )
+  ( 6 /A1PIN1 )
+  ( 7 /GND )
+  ( 8 N-000063 )
+  ( 9 N-000038 )
+  ( 10 /GND )
+  ( 11 /GND )
+  ( 12 /RESET )
+  ( 13 ? )
+  ( 14 /D3PIN0 )
+  ( 15 /D3PIN1 )
+  ( 16 /D3PIN2 )
+  ( 17 /D3PIN3 )
+  ( 18 /D3PIN4 )
+  ( 19 /D3PIN5 )
+  ( 20 /GND )
+  ( 21 /VCC )
+  ( 22 /VCC )
+  ( 23 /VCC )
+  ( 24 /GND )
+  ( 25 /SCL )
+  ( 26 /SDA )
+  ( 27 /D2PIN2 )
+  ( 28 /D2PIN3 )
+  ( 29 /D2PIN4 )
+  ( 30 /RFRX )
+  ( 31 /RFTX )
+  ( 32 /D2PIN5 )
+  ( 33 /VCC )
+  ( 34 /VCC )
+  ( 35 /GND )
+  ( 36 /D2PIN0 )
+  ( 37 /D1PIN13 )
+  ( 38 /D2PIN1 )
+  ( 39 /D1PIN12 )
+  ( 40 /D1PIN8 )
+  ( 41 /D1PIN11 )
+  ( 42 /D1PIN10 )
+  ( 43 /D1PIN9 )
+  ( 44 /VCC )
+  ( 45 /GND )
+  ( 46 /RXD )
+  ( 47 /TXD )
+  ( 48 /D0PIN2 )
+  ( 49 /D0PIN3 )
+  ( 50 /D0PIN4 )
+  ( 51 /D0PIN5 )
+  ( 52 /D0PIN6 )
+  ( 53 /D0PIN7 )
+  ( 54 /VCC )
+  ( 55 /GND )
+  ( 56 N-000041 )
+  ( 57 N-000043 )
+  ( 58 /GND )
+  ( 59 /VCC )
+  ( 60 N-000062 )
+  ( 61 /GND )
+  ( 62 /AREF )
+  ( 63 /A0PIN0 )
+  ( 64 /A0PIN1 )
+  ( 65 /GND )
+ )
+ ( /4F842680 SOT23EBC U15 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /A0PIN0 )
+ )
+ ( /4F8D7074 SOT23EBC U16 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /A0PIN1 )
+ )
+ ( /4F8D7112 SOT23EBC U17 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /A0PIN2 )
+ )
+ ( /4F8D711A SOT23EBC U18 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /A0PIN3 )
+ )
+ ( /4F8D7120 SOT23EBC U19 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /A0PIN4 )
+ )
+ ( /4F8D7149 SOT23EBC U20 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /A0PIN5 )
+ )
+ ( /4F84312F pin_array_2x2 U21 SPI
+  ( 1 /D1PIN13 )
+  ( 2 /D1PIN12 )
+  ( 3 /D2PIN1 )
+  ( 4 /GND )
+ )
+ ( /4F8D409F KP-2012ZGC U22 KP-2012ZGC
+  ( 1 N-000090 )
+  ( 2 /CBUS0 )
+ )
+ ( /4F8D40C6 KP-2012ZGC U23 KP-2012ZGC
+  ( 1 N-000091 )
+  ( 2 /CBUS1 )
+ )
+ ( /4F842C8A pin_array_3x2 U24 ICSP
+  ( 1 /D1PIN12 )
+  ( 2 /VCC )
+  ( 3 /D1PIN13 )
+  ( 4 /D2PIN1 )
+  ( 5 /RESET )
+  ( 6 /GND )
+ )
+ ( /4F8E703A SOT23EBC U25 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /RXD )
+ )
+ ( /4F8E8021 SOT23EBC U26 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /TXD )
+ )
+ ( /4F8E8037 SOT23EBC U27 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D0PIN2 )
+ )
+ ( /4F8E8071 SOT23EBC U28 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D0PIN3 )
+ )
+ ( /4F8E809D SOT23EBC U29 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D0PIN4 )
+ )
+ ( /4F8E80B0 SOT23EBC U30 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D0PIN5 )
+ )
+ ( /4F8E80CA SOT23EBC U31 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D0PIN6 )
+ )
+ ( /4F8E80E4 SOT23EBC U32 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D0PIN7 )
+ )
+ ( /4F8D1A30 KP-2012ZGC U33 KP-2012SURCK
+  ( 1 /VCC )
+  ( 2 N-000058 )
+ )
+ ( /4F8EAB6A KP-2012ZGC U34 LED_RED
+  ( 1 /D1PIN13 )
+  ( 2 N-000025 )
+ )
+ ( /4F8E8209 SOT23EBC U35 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D1PIN8 )
+ )
+ ( /4F8E8208 SOT23EBC U36 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D1PIN9 )
+ )
+ ( /4F8E8205 SOT23EBC U37 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D1PIN10 )
+ )
+ ( /4F8E8204 SOT23EBC U38 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D1PIN11 )
+ )
+ ( /4F8E8201 SOT23EBC U39 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D1PIN12 )
+ )
+ ( /4F8E8200 SOT23EBC U40 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D1PIN13 )
+ )
+ ( /4F842AEE KP-2012ZGC U41 KP-2012ZGC
+  ( 1 /RFRX )
+  ( 2 N-000046 )
+ )
+ ( /4F842A15 KP-2012ZGC U42 KP-2012ZGC
+  ( 1 /RFTX )
+  ( 2 N-000044 )
+ )
+ ( /4F8432E7 PCB_PUSH U43 RESET
+  ( 1 /RESET )
+  ( 2 /GND )
+  ( 3 /RESET )
+  ( 4 /GND )
+ )
+ ( /4F8E8B15 SOT23EBC U44 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /A1PIN0 )
+ )
+ ( /4F8E8B16 SOT23EBC U45 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /A1PIN1 )
+ )
+ ( /4F8E8B19 SOT23EBC U46 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D2PIN0 )
+ )
+ ( /4F8E8B1A SOT23EBC U47 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D2PIN1 )
+ )
+ ( /4F8EA819 SOT23EBC U48 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D2PIN2 )
+ )
+ ( /4F8EA818 SOT23EBC U49 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D2PIN3 )
+ )
+ ( /4F8EA82E SOT23EBC U50 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D2PIN4 )
+ )
+ ( /4F8EA82F SOT23EBC U51 BAT54S
+  ( 1 /GND )
+  ( 2 /VCC )
+  ( 3 /D2PIN5 )
+ )
+ ( /4F841D45 2450FB15L0001 U52 2450FB15L0001
+  ( 1 /RFOUT )
+  ( 2 N-000039 )
+  ( 3 N-000038 )
+  ( 4 N-000063 )
+  ( 5 /GND )
+  ( 6 /GND )
+ )
+ ( /4F8D2AF7 YDJ-1136 X1 DCPWR_JACK2P5_PCB
+  ( 1 N-000057 )
+  ( 2 /GND )
+  ( 3 ? )
+ )
+ ( /4F8D4942 BH16R X2 BH16R
+  ( 1 /RXD )
+  ( 2 /TXD )
+  ( 3 /RTS )
+  ( 4 /CTS )
+  ( 5 /DTR )
+  ( 6 /DSR )
+  ( 7 /DCD )
+  ( 8 /RI )
+  ( 9 /CBUS4 )
+  ( 10 /CBUS3 )
+  ( 11 /CBUS2 )
+  ( 12 /CBUS1 )
+  ( 13 /CBUS0 )
+  ( 14 /GND )
+  ( 15 /VCC )
+  ( 16 /5VDC )
+ )
+ ( /4F912E08 arduinoRF_connector_6pins X3 DIGITAL2
+  ( 1 /D14 )
+  ( 2 /D15 )
+  ( 3 /D16 )
+  ( 4 /D17 )
+  ( 5 /D18 )
+  ( 6 /D19 )
+ )
+ ( /4F8D72CA arduinoRF_connector_6pins X4 ANALOG
+  ( 1 /A0 )
+  ( 2 /A1 )
+  ( 3 /A2 )
+  ( 4 /A3 )
+  ( 5 /A4 )
+  ( 6 /A5 )
+ )
+ ( /4F8E8114 arduinoRF_connector_8pins X5 DIGITAL0
+  ( 1 /D0 )
+  ( 2 /D1 )
+  ( 3 /D2 )
+  ( 4 /D3 )
+  ( 5 /D4 )
+  ( 6 /D5 )
+  ( 7 /D6 )
+  ( 8 /D7 )
+ )
+ ( /4F8E81FA arduinoRF_connector_8pins X6 DIGITAL1
+  ( 1 /D8 )
+  ( 2 /D9 )
+  ( 3 /D10 )
+  ( 4 /D11 )
+  ( 5 /D12 )
+  ( 6 /D13 )
+  ( 7 /GND )
+  ( 8 /AREF )
+ )
+ ( /4F8EA885 arduinoRF_connector_8pins X7 ANDIG
+  ( 1 /A6 )
+  ( 2 /A7 )
+  ( 3 /D20 )
+  ( 4 /D21 )
+  ( 5 /D22 )
+  ( 6 /D23 )
+  ( 7 /D24 )
+  ( 8 /D25 )
+ )
+ ( /4F8EB769 rp-sma X8 RP-SMA
+  ( 0 /RFOUT )
+  ( 1 /GND )
+  ( 2 /GND )
+  ( 3 /GND )
+  ( 4 /GND )
+ )
+ ( /4F8E8D9F arduinoRF_connector_6pins X9 POWER
+  ( 1 /RESET )
+  ( 2 /VCC )
+  ( 3 /5VDC )
+  ( 4 /GND )
+  ( 5 /GND )
+  ( 6 /VIN )
  )
 )
 *
 { Allowed footprints by component:
+$component J1
+ USB_B
+$endlist
 $component J3
  testpoint_2mm5
 $endlist
 $component J4
  testpoint_2mm5
 $endlist
-$component J1
- USB_B
-$endlist
 $component U43
  PCB_PUSH
 $endlist
 $endfootprintlist
 }
-{ Pin List by Nets
-Net 1 "/D11" "D11"
- X6 4
- R34 2
-Net 2 "/D9" "D9"
- X6 2
- R32 2
-Net 3 "/AREF" "AREF"
- X6 8
- U14 62
- C13 1
-Net 4 "/VCC" "VCC"
- U24 2
- U9 3
- U6 2
- U4 2
- U3 2
- U14 21
- U14 22
- U14 23
- U14 34
- U14 44
- U14 54
- U14 59
- C10 1
- U5 2
- U33 1
- U47 2
- U46 2
- X9 2
- C17 1
- C11 1
- C14 1
- C15 1
- C16 1
- U12 4
- U15 2
- R10 2
- R7 2
- U48 2
- U49 2
- X2 15
- U17 2
- U16 2
- U1 2
- U19 2
- U18 2
- R8 2
- U14 33
- J3 1
- R19 2
- R18 2
- U2 2
- U13 2
- U44 2
- U45 2
- U37 2
- U38 2
- U20 2
- U28 2
- U27 2
- U50 2
- U40 2
- U39 2
- U29 2
- U30 2
- U32 2
- U31 2
- U11 2
- U35 2
- U36 2
- U51 2
- U25 2
- U26 2
-Net 5 "/GND" "GND"
- U31 1
- U14 35
- U14 45
- U14 55
- U14 65
- U14 58
- U32 1
- C8 2
- C13 2
- U10 18
- U4 1
- U3 1
- U14 10
- U14 20
- U14 61
- U14 24
- U43 2
- U39 1
- U43 4
- U21 4
- U40 1
- U9 4
- U35 1
- C3 2
- C10 2
- U36 1
- U14 7
- R28 2
- U5 1
- U1 1
- U25 1
- U20 1
- U16 1
- U26 1
- U18 1
- U19 1
- U27 1
- C7 2
- C5 2
- U28 1
- J1 4
- U17 1
- C2 2
- J4 1
- U10 21
- U44 1
- X2 14
- U10 25
- U10 26
- U6 1
- U2 1
- C4 2
- U14 11
- U45 1
- J1 6
- J1 5
- C1 2
- R30 1
- U49 1
- U38 1
- X9 4
- X9 5
- R29 2
- U47 1
- U46 1
- C18 2
- C19 2
- X8 2
- X8 3
- X8 4
- U51 1
- C14 2
- C15 2
- C16 2
- C17 2
- U50 1
- C11 2
- C12 2
- X8 1
- X1 2
- U30 1
- X6 7
- U11 1
- U10 7
- U29 1
- U15 1
- U24 6
- R9 2
- U12 1
- U52 6
- U13 1
- U52 5
- U37 1
- U48 1
- U12 6
- R37 1
- C6 2
-Net 6 "/A1PIN0" "A1PIN0"
- U14 5
- R38 1
- U44 3
-Net 7 "/A1PIN1" "A1PIN1"
- U45 3
- U14 6
- R39 1
-Net 8 "/D1" "D1"
- R21 2
- X5 2
-Net 9 "/A0PIN5" "A0PIN5"
- U14 4
- U20 3
- R17 1
-Net 10 "/A5" "A5"
- X4 6
- R17 2
-Net 11 "/A3" "A3"
- R15 2
- X4 4
-Net 12 "/RXD" "RXD"
- X2 1
- U14 46
- U10 1
- R20 1
- U25 3
-Net 13 "/D0PIN7" "D0PIN7"
- U32 3
- U14 53
- R27 1
-Net 14 "/D7" "D7"
- X5 8
- R27 2
-Net 15 "/D6" "D6"
- X5 7
- R26 2
-Net 16 "/D5" "D5"
- R25 2
- X5 6
-Net 17 "/D4" "D4"
- R24 2
- X5 5
-Net 18 "/D2" "D2"
- R22 2
- X5 3
-Net 19 "/D0" "D0"
- X5 1
- R20 2
-Net 20 "/D0PIN3" "D0PIN3"
- R23 1
- U14 49
- U28 3
-Net 21 "/D3" "D3"
- R23 2
- X5 4
-Net 22 "/D0PIN4" "D0PIN4"
- U29 3
- U14 50
- R24 1
-Net 23 "/D0PIN5" "D0PIN5"
- R25 1
- U14 51
- U30 3
-Net 24 "/D0PIN6" "D0PIN6"
- U31 3
- U14 52
- R26 1
-Net 25 "" ""
- R29 1
- U34 2
-Net 26 "/RFOUT" "RFOUT"
- U52 1
- C19 1
- X8 0
-Net 27 "/D2PIN5" "D2PIN5"
- U14 32
- R45 1
- U51 3
-Net 28 "/D25" "D25"
- X7 8
- R45 2
-Net 29 "/D23" "D23"
- X7 6
- R43 2
-Net 30 "/D21" "D21"
- R41 2
- X7 4
-Net 31 "/D20" "D20"
- R40 2
- X7 3
-Net 32 "/VIN" "VIN"
- J2 2
- X9 6
- C8 1
- U12 2
- R9 1
-Net 33 "/5VDC" "5VDC"
- X9 3
- C5 1
- J2 1
- U10 20
- J1 1
- X2 16
- C4 1
-Net 34 "/D2PIN2" "D2PIN2"
- U14 27
- R42 1
- U48 3
-Net 35 "/D2PIN4" "D2PIN4"
- R44 1
- U50 3
- U14 29
-Net 36 "/SDA" "SDA"
- U11 3
- R7 1
- U14 26
- U9 1
-Net 37 "/SCL" "SCL"
- U13 3
- U9 2
- U14 25
- R10 1
-Net 38 "" ""
- U14 9
- U52 3
-Net 39 "" ""
- C18 1
- U52 2
-Net 41 "" ""
- U7 3
- C2 1
- U14 56
-Net 43 "" ""
- U14 57
- U7 1
- C1 1
-Net 44 "" ""
- R37 2
- U42 2
-Net 45 "/RFTX" "RFTX"
- U14 31
- U42 1
-Net 46 "" ""
- R30 2
- U41 2
-Net 47 "/RFRX" "RFRX"
- U41 1
- U14 30
-Net 48 "/RESET" "RESET"
- X9 1
- U43 3
- R11 2
- C9 2
- U14 12
- U24 5
- U43 1
- R8 1
-Net 50 "" ""
- C3 1
- U10 17
- U10 4
- C7 1
-Net 53 "/DP" "DP"
- U10 15
- J1 3
-Net 54 "/DM" "DM"
- J1 2
- U10 16
-Net 56 "/VEXT" "VEXT"
- J2 3
- U8 2
-Net 57 "" ""
- X1 1
- U8 1
-Net 58 "" ""
- U33 2
- R28 1
-Net 59 "/D2PIN1" "D2PIN1"
- U24 4
- U14 38
- R41 1
- U21 3
- U47 3
-Net 60 "/D2PIN3" "D2PIN3"
- R43 1
- U49 3
- U14 28
-Net 61 "/D2PIN0" "D2PIN0"
- U14 36
- U46 3
- R40 1
-Net 62 "" ""
- C12 1
- U14 60
-Net 63 "" ""
- U14 8
- U52 4
-Net 68 "/D3PIN0" "D3PIN0"
- U14 14
- U1 3
- R1 1
-Net 69 "/D3PIN1" "D3PIN1"
- R2 1
- U2 3
- U14 15
-Net 70 "/D3PIN2" "D3PIN2"
- U3 3
- R3 1
- U14 16
-Net 71 "/D3PIN3" "D3PIN3"
- U4 3
- U14 17
- R4 1
-Net 72 "/D3PIN4" "D3PIN4"
- U14 18
- R5 1
- U5 3
-Net 73 "/D3PIN5" "D3PIN5"
- U14 19
- U6 3
- R6 1
-Net 74 "/A0PIN0" "A0PIN0"
- U14 63
- R12 1
- U15 3
-Net 75 "/A0" "A0"
- R12 2
- X4 1
-Net 76 "/A0PIN1" "A0PIN1"
- U16 3
- R13 1
- U14 64
-Net 77 "/A0PIN2" "A0PIN2"
- R14 1
- U14 1
- U17 3
-Net 78 "/A0PIN3" "A0PIN3"
- U14 2
- R15 1
- U18 3
-Net 79 "/A0PIN4" "A0PIN4"
- U14 3
- R16 1
- U19 3
-Net 80 "/A4" "A4"
- R16 2
- X4 5
-Net 81 "/A2" "A2"
- X4 3
- R14 2
-Net 82 "/RTS" "RTS"
- R11 1
- U10 3
- X2 3
-Net 83 "/DTR" "DTR"
- U10 2
- C9 1
- X2 5
-Net 84 "/CTS" "CTS"
- X2 4
- U10 11
-Net 85 "/DSR" "DSR"
- U10 9
- X2 6
-Net 86 "/DCD" "DCD"
- U10 10
- X2 7
-Net 87 "/RI" "RI"
- U10 6
- X2 8
-Net 88 "/CBUS1" "CBUS1"
- U23 2
- U10 22
- X2 12
-Net 89 "/CBUS0" "CBUS0"
- U10 23
- X2 13
- U22 2
-Net 90 "" ""
- U22 1
- R18 1
-Net 91 "" ""
- R19 1
- U23 1
-Net 92 "/CBUS2" "CBUS2"
- X2 11
- U10 13
-Net 93 "/CBUS3" "CBUS3"
- X2 10
- U10 14
-Net 94 "/CBUS4" "CBUS4"
- X2 9
- U10 12
-Net 95 "/A1" "A1"
- R13 2
- X4 2
-Net 96 "" ""
- C6 1
- U10 19
-Net 101 "/A6" "A6"
- R38 2
- X7 1
-Net 102 "/A7" "A7"
- X7 2
- R39 2
-Net 103 "/D22" "D22"
- R42 2
- X7 5
-Net 104 "/D24" "D24"
- X7 7
- R44 2
-Net 105 "/D14" "D14"
- X3 1
- R1 2
-Net 106 "/D15" "D15"
- R2 2
- X3 2
-Net 107 "/D16" "D16"
- X3 3
- R3 2
-Net 108 "/D17" "D17"
- X3 4
- R4 2
-Net 109 "/D18" "D18"
- X3 5
- R5 2
-Net 110 "/D19" "D19"
- R6 2
- X3 6
-Net 111 "/D8" "D8"
- X6 1
- R31 2
-Net 112 "/D1PIN8" "D1PIN8"
- R31 1
- U14 40
- U35 3
-Net 113 "/D1PIN9" "D1PIN9"
- U14 43
- U36 3
- R32 1
-Net 114 "/D10" "D10"
- R33 2
- X6 3
-Net 115 "/D1PIN10" "D1PIN10"
- U37 3
- R33 1
- U14 42
-Net 116 "/D1PIN11" "D1PIN11"
- R34 1
- U14 41
- U38 3
-Net 117 "/D12" "D12"
- X6 5
- R35 2
-Net 118 "/D1PIN12" "D1PIN12"
- U39 3
- R35 1
- U24 1
- U21 2
- U14 39
-Net 119 "/D13" "D13"
- R36 2
- X6 6
-Net 120 "/D1PIN13" "D1PIN13"
- U40 3
- U14 37
- U24 3
- R36 1
- U21 1
- U34 1
-Net 121 "/TXD" "TXD"
- U14 47
- U26 3
- X2 2
- R21 1
- U10 5
-Net 122 "/D0PIN2" "D0PIN2"
- R22 1
- U27 3
- U14 48
-}
-#End

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 26 Apr 2012 04:39:31 PM EEST
+EESchema Schematic File Version 2  date Thu 03 May 2012 02:19:20 PM EEST
 LIBS:power
 LIBS:conn
 LIBS:project_lib
@@ -9,7 +9,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "arduinoRF"
-Date "26 apr 2012"
+Date "3 may 2012"
 Rev "1.0"
 Comp "rdrlab"
 Comment1 ""
@@ -17,6 +17,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	6650 1800 6650 1900
 Wire Wire Line
 	11150 8550 11000 8550
 Wire Wire Line
@@ -608,7 +610,6 @@ Wire Wire Line
 	3650 2850 3650 2900
 Wire Wire Line
 	2900 2600 2950 2600
-Connection ~ 1400 2950
 Wire Wire Line
 	1300 3200 2000 3200
 Wire Wire Line
@@ -1336,6 +1337,8 @@ Wire Wire Line
 Wire Wire Line
 	3250 1650 3250 1400
 Connection ~ 3250 1400
+Wire Wire Line
+	5950 1800 5950 1900
 NoConn ~ 1350 1200
 Text Label 1900 9800 0    31   ~ 0
 D19
@@ -1636,7 +1639,7 @@ Text Label 3000 4950 0    31   ~ 0
 GND
 Text Notes 800  3950 0    79   ~ 0
 SUPPORTED INTERFACES: SERIAL(FTDI direct), ICSP, SPI, I2C
-Text Notes 7150 1000 0    31   ~ 0
+Text Notes 7100 1000 0    31   ~ 0
 RF RX & TX
 $Comp
 L CAP_0603 C10
@@ -1669,9 +1672,9 @@ Text Notes 4000 1500 0    39   ~ 0
 JUMPER 
 Text Notes 3750 1000 0    35   ~ 0
 Power selector
-Text Label 6650 1800 3    35   ~ 0
+Text Label 6650 1900 3    35   ~ 0
 GND
-Text Label 5950 1800 3    35   ~ 0
+Text Label 5950 1900 3    35   ~ 0
 GND
 Text Notes 1900 2350 0    39   ~ 0
 RX and TX LEDs ARE NOT FUNCTIONAL
@@ -2090,6 +2093,7 @@ U 1 1 4F8EAB69
 P 6650 1700
 F 0 "R29" H 6650 1775 31  0000 C CNN
 F 1 "1K" H 6650 1800 31  0001 C CNN
+F 2 "r_0603" H 6650 1700 60  0001 C CNN
 	1    6650 1700
 	0    1    1    0   
 $EndComp
@@ -2292,6 +2296,7 @@ U 1 1 4F8EA195
 P 7500 1800
 F 0 "R37" H 7500 1875 60  0000 C CNN
 F 1 "RES_0603" H 7500 1900 60  0001 C CNN
+F 2 "r_0603" H 7500 1800 60  0001 C CNN
 	1    7500 1800
 	0    -1   -1   0   
 $EndComp
@@ -2301,6 +2306,7 @@ U 1 1 4F8EA18A
 P 7300 1800
 F 0 "R30" H 7300 1875 60  0000 C CNN
 F 1 "RES_0603" H 7300 1900 60  0001 C CNN
+F 2 "r_0603" H 7300 1800 60  0001 C CNN
 	1    7300 1800
 	0    -1   -1   0   
 $EndComp
@@ -3023,7 +3029,7 @@ GND
 Text Label 1950 6150 2    31   ~ 0
 VCC
 NoConn ~ 2250 5950
-Text Notes 7850 1000 0    31   ~ 0
+Text Notes 7800 1000 0    31   ~ 0
 RESET
 Text Label 8050 1850 3    31   ~ 0
 GND
@@ -3298,7 +3304,7 @@ L RES_0603 R9
 U 1 1 4F8D2200
 P 2300 1250
 F 0 "R9" H 2300 1200 31  0000 C CNN
-F 1 "RES_0603" H 2300 1350 60  0001 C CNN
+F 1 "10K" H 2300 1350 60  0001 C CNN
 F 2 "r_0603" H 2300 1250 60  0001 C CNN
 F 3 "http://store.comet.bg/bg/Catalogue/Product/4437/" H 2300 1250 60  0001 C CNN
 	1    2300 1250
@@ -3320,6 +3326,7 @@ U 1 1 4F8D1A56
 P 5950 1700
 F 0 "R28" H 5950 1775 31  0000 C CNN
 F 1 "1K" H 5950 1800 31  0001 C CNN
+F 2 "r_0603" H 5950 1700 60  0001 C CNN
 	1    5950 1700
 	0    1    1    0   
 $EndComp
