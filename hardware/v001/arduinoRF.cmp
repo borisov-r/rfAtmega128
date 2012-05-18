@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = Thu 17 May 2012 04:39:35 PM EEST
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = Fri 18 May 2012 03:07:52 PM EEST
 
 BeginCmp
 TimeStamp = /4F8D5CFD;
@@ -557,7 +557,7 @@ BeginCmp
 TimeStamp = /4F841679;
 Reference = U12;
 ValeurCmp = BA033CC0WFP;
-IdModule  = TO252-5;
+IdModule  = BA033CCOWFP;
 EndCmp
 
 BeginCmp

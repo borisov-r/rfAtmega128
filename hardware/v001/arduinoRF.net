@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Thu 17 May 2012 04:39:35 PM EEST
+# EESchema Netlist Version 1.1 created  Fri 18 May 2012 03:07:52 PM EEST
 (
  ( /4F8D5CFD c_0603 C1 10p
   ( 1 N-000043 )
@@ -356,7 +356,7 @@
   ( 2 /VCC )
   ( 3 /SDA )
  )
- ( /4F841679 TO252-5 U12 BA033CC0WFP
+ ( /4F841679 BA033CCOWFP U12 BA033CC0WFP
   ( 1 /GND )
   ( 2 /VIN )
   ( 3 ? )
