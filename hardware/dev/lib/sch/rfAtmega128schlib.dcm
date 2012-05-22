@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Mon 21 May 2012 04:12:42 PM EEST
+EESchema-DOCLIB  Version 2.0  Date: Tue 22 May 2012 12:37:23 PM EEST
 #
 $CMP 2450FB15L0001
 D 2.45 GHz Harmonic Filter-Balun Optimized for AT86RF230/231 and ATmega128RFA1
@@ -94,6 +94,12 @@ $ENDCMP
 $CMP J3PIN
 D Jumper
 K jumper 3 pins header
+$ENDCMP
+#
+$CMP PN2X10
+D Socket connector 2 x 10 pins
+K socket, connector, 2x10, pins
+F http://store.comet.bg/bg/Catalogue/Product/10042/
 $ENDCMP
 #
 $CMP Q16.000
