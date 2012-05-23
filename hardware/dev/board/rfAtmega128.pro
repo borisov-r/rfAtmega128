@@ -1,0 +1,22 @@
+update=Wed 23 May 2012 01:54:14 PM EEST
+last_client=pcbnew
+[pcbnew]
+version=1
+PadDrlX=315
+PadDimH=551
+PadDimV=551
+BoardThickness=630
+TxtPcbV=800
+TxtPcbH=600
+TxtModV=600
+TxtModH=600
+TxtModW=120
+VEgarde=100
+DrawLar=150
+EdgeLar=150
+TxtLar=120
+MSegLar=150
+LastNetListRead=../schematics/rfAtmega128.net
+[pcbnew/libraries]
+LibDir=Z:/home/borisov-r/git/rfAtmega128/hardware/dev/lib/pcb
+LibName1=rfAtmega128
