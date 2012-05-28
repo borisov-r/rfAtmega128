@@ -1,52 +1,52 @@
-# EESchema Netlist Version 1.1 created  Wed 23 May 2012 01:52:19 PM EEST
+# EESchema Netlist Version 1.1 created  Mon 28 May 2012 04:40:35 PM EEST
 (
  ( /4FBB86BF r_0603  R4 51 {Lib=RES_0603}
-  (    1 N-000078 )
+  (    1 N-000081 )
   (    2 GND )
  )
  ( /4FBB865A PCB_PUSH  U5 BUTTON {Lib=BUTTON}
   (    1 /RESET )
-  (    2 N-000078 )
+  (    2 N-000081 )
   (    3 /RESET )
-  (    4 N-000078 )
+  (    4 N-000081 )
  )
  ( /4FBB5F51 rp-sma  X1 RP-SMA {Lib=RP-SMA}
-  (    0 N-000072 )
+  (    0 /50ohm )
   (    1 GND )
   (    2 GND )
   (    3 GND )
   (    4 GND )
  )
  ( /4FBB5EDF c_0603  C18 1.5p {Lib=CAP_0603}
-  (    1 N-000072 )
+  (    1 /50ohm )
   (    2 GND )
  )
  ( /4FBB5ED7 c_0603  C17 22p {Lib=CAP_0603}
-  (    1 N-000071 )
+  (    1 N-000084 )
   (    2 GND )
  )
  ( /4FBB5E6C 2450FB15L0001  U8 2450FB15L0001 {Lib=2450FB15L0001}
-  (    1 N-000072 )
-  (    2 N-000071 )
-  (    3 N-000073 )
-  (    4 N-000038 )
+  (    1 /50ohm )
+  (    2 N-000084 )
+  (    3 N-000042 )
+  (    4 N-000085 )
   (    5 GND )
   (    6 GND )
  )
  ( /4FBB58F8 KP-2012ZGC  U9 LED_GREEN {Lib=LED_GREEN}
-  (    1 N-000088 )
+  (    1 N-000082 )
   (    2 GND )
  )
  ( /4FBB58F7 KP-2012ZGC  U10 LED_GREEN {Lib=LED_GREEN}
-  (    1 N-000079 )
+  (    1 N-000078 )
   (    2 GND )
  )
  ( /4FBB58F6 r_0603  R8 RES_0603 {Lib=RES_0603}
-  (    1 N-000088 )
+  (    1 N-000082 )
   (    2 /RFTX )
  )
  ( /4FBB58F5 r_0603  R9 RES_0603 {Lib=RES_0603}
-  (    1 N-000079 )
+  (    1 N-000078 )
   (    2 /RFRX )
  )
  ( /4FBB56D3 PN2X10  XT3 PN2X10 {Lib=PN2X10}
@@ -72,38 +72,38 @@
   (   20 /pg5 )
  )
  ( /4FBB53B1 SOT23EBC  U14 BAT54S {Lib=BAT54S}
-  (    1 GND )
-  (    2 /pwr_atmega )
+  (    1 ? )
+  (    2 ? )
   (    3 /TXD )
  )
  ( /4FBB5097 r_0603  R15 RES_0603 {Lib=RES_0603}
   (    1 /TXD )
-  (    2 N-000029 )
+  (    2 N-000033 )
  )
  ( /4FBB5096 r_0603  R16 RES_0603 {Lib=RES_0603}
   (    1 /RXD )
-  (    2 N-000023 )
+  (    2 N-000025 )
  )
  ( /4FBB5062 PN2X10  XT2 PN2X10 {Lib=PN2X10}
   (    1 GND )
   (    2 /pwr_atmega )
-  (    3 /adc7 )
-  (    4 /adc6 )
-  (    5 /adc5 )
-  (    6 /adc4 )
-  (    7 /adc3 )
-  (    8 /adc2 )
-  (    9 /adc1 )
-  (   10 /adc0 )
-  (   11 N-000023 )
-  (   12 N-000029 )
-  (   13 /D2 )
-  (   14 /D3 )
-  (   15 /D4 )
-  (   16 /D5 )
-  (   17 /D6 )
-  (   18 /D7 )
-  (   19 /pwr_atmega )
+  (    3 /D7 )
+  (    4 /D6 )
+  (    5 /D5 )
+  (    6 /D4 )
+  (    7 /D3 )
+  (    8 /D2 )
+  (    9 N-000033 )
+  (   10 N-000025 )
+  (   11 /adc7 )
+  (   12 /adc6 )
+  (   13 /adc5 )
+  (   14 /adc4 )
+  (   15 /adc3 )
+  (   16 /adc2 )
+  (   17 /adc1 )
+  (   18 /adc0 )
+  (   19 /aref )
   (   20 GND )
  )
  ( /4FBA469A c_0603  C4 100n {Lib=CAP_0603}
@@ -111,7 +111,7 @@
   (    2 GND )
  )
  ( /4FBA45D5 c_0603  C5 100n {Lib=CAP_0603}
-  (    1 N-000035 )
+  (    1 N-000040 )
   (    2 GND )
  )
  ( /4FBA459D c_0603  C6 100n {Lib=CAP_0603}
@@ -135,30 +135,30 @@
   (    2 GND )
  )
  ( /4FBA3D08 r_0603  R2 RES_0603 {Lib=RES_0603}
-  (    1 N-000089 )
+  (    1 N-000074 )
   (    2 GND )
  )
  ( /4FBA3D01 JUMPER2PINS  J3 PWR_ON/OFF {Lib=J2PIN}
-  (    1 N-000069 )
-  (    2 N-000089 )
+  (    1 N-000076 )
+  (    2 N-000074 )
  )
  ( /4FBA3B5B r_0603  R3 1M {Lib=RES_0603}
-  (    1 N-000090 )
-  (    2 N-000001 )
+  (    1 N-000001 )
+  (    2 N-000075 )
  )
  ( /4FBA3B4F c_0603  C3 100n {Lib=CAP_0603}
-  (    1 N-000001 )
+  (    1 N-000075 )
   (    2 GND )
  )
  ( /4FBA3B3C c_0603  C2 100n {Lib=CAP_0603}
-  (    1 N-000090 )
+  (    1 N-000001 )
   (    2 GND )
  )
  ( /4FBA3AF9 crystal_xg6x3p5  U3 Q16.000 {Lib=Q16.000}
-  (    1 N-000001 )
-  (    2 ? )
-  (    3 N-000090 )
-  (    4 ? )
+  (    1 N-000075 )
+  (    2 GND )
+  (    3 N-000001 )
+  (    4 GND )
  )
  ( /4FBA3A7D r_0603  R5 100K {Lib=RES_0603}
   (    1 /RESET )
@@ -183,19 +183,19 @@
   (   16 /pwr_atmega )
  )
  ( /4FBA0810 r_0603  R14 2.7K {Lib=RES_0603}
-  (    1 N-000006 )
+  (    1 N-000003 )
   (    2 /pwr_ftdi )
  )
  ( /4FBA080A r_0603  R13 2.7K {Lib=RES_0603}
-  (    1 N-000007 )
+  (    1 N-000004 )
   (    2 /pwr_ftdi )
  )
  ( /4FBA07E0 KP-2012ZGC  U12 LED_GREEN {Lib=LED_GREEN}
-  (    1 N-000006 )
+  (    1 N-000003 )
   (    2 /CBUS1_CONN )
  )
  ( /4FBA07B7 KP-2012ZGC  U11 LED_GREEN {Lib=LED_GREEN}
-  (    1 N-000007 )
+  (    1 N-000004 )
   (    2 /CBUS0_CONN )
  )
  ( /4FBA05CE c_0603  C19 100n {Lib=CAP_0603}
@@ -215,11 +215,11 @@
   (    2 /RXD )
  )
  ( /4FBA01D1 c_0603  C16 100n {Lib=CAP_0603}
-  (    1 N-000070 )
+  (    1 N-000073 )
   (    2 GND )
  )
  ( /4FBA01BE c_0603  C12 100n {Lib=CAP_0603}
-  (    1 N-000070 )
+  (    1 N-000073 )
   (    2 GND )
  )
  ( /4FBA01BC c_0805  C13 4.7u {Lib=CAP_0603}
@@ -227,15 +227,15 @@
   (    2 GND )
  )
  ( /4FBA01A9 c_0603  C15 100n {Lib=CAP_0603}
-  (    1 N-000067 )
+  (    1 N-000066 )
   (    2 GND )
  )
  ( /4FBA00AD r_0603  R7 510 {Lib=RES_0603}
-  (    1 N-000065 )
+  (    1 N-000070 )
   (    2 /DP )
  )
  ( /4FBA00A5 r_0603  R6 510 {Lib=RES_0603}
-  (    1 N-000066 )
+  (    1 N-000071 )
   (    2 /DM )
  )
  ( /4FB9FFCC c_0603  C14 100n {Lib=CAP_0603}
@@ -252,10 +252,10 @@
  )
  ( /4FB9DC70 r_0603  R1 2.7K {Lib=RES_0603}
   (    1 /vdd33 )
-  (    2 N-000068 )
+  (    2 N-000072 )
  )
  ( /4FB9DC60 KP-2012ZGC  U1 LED_RED {Lib=LED_RED}
-  (    1 N-000068 )
+  (    1 N-000072 )
   (    2 GND )
  )
  ( /4FB9DAD8 testpoint_2mm5  J2 TEST_GND {Lib=TEST_PAD}
@@ -268,7 +268,7 @@
   (    1 /TXD_CONN )
   (    2 /DTR_CONN )
   (    3 /RTS_CONN )
-  (    4 N-000070 )
+  (    4 N-000073 )
   (    5 /RXD_CONN )
   (    6 /RI_CONN )
   (    7 GND )
@@ -279,11 +279,11 @@
   (   12 /CBUS4_CONN )
   (   13 /CBUS2_CONN )
   (   14 /CBUS3_CONN )
-  (   15 N-000065 )
-  (   16 N-000066 )
-  (   17 N-000070 )
+  (   15 N-000070 )
+  (   16 N-000071 )
+  (   17 N-000073 )
   (   18 GND )
-  (   19 N-000067 )
+  (   19 N-000066 )
   (   20 /pwr_ftdi )
   (   21 GND )
   (   22 /CBUS1_CONN )
@@ -299,28 +299,28 @@
   (    2 GND )
  )
  ( /4FB9D7AF c_0603  C1 330n {Lib=CAP_0603}
-  (    1 N-000069 )
+  (    1 N-000076 )
   (    2 GND )
  )
  ( /4FB64F4E SOT23EBC  U13 BAT54S {Lib=BAT54S}
-  (    1 GND )
-  (    2 /pwr_atmega )
+  (    1 ? )
+  (    2 ? )
   (    3 /RXD )
  )
  ( /4FB64D0E BA033CCOWFP  U4 BA033CC0WFP {Lib=BA033CC0WFP}
-  (    1 N-000089 )
-  (    2 N-000069 )
+  (    1 N-000074 )
+  (    2 N-000076 )
   (    3 ? )
   (    4 /vdd33 )
   (    5 ? )
   (    6 GND )
  )
  ( /4FB64C23 melf  U2 DIODE {Lib=DIODE}
-  (    1 N-000043 )
-  (    2 N-000069 )
+  (    1 N-000050 )
+  (    2 N-000076 )
  )
  ( /4FB64BEB USB_B  XT1 USB_B {Lib=USB_B}
-  (    1 N-000043 )
+  (    1 N-000050 )
   (    2 /DM )
   (    3 /DP )
   (    4 GND )
@@ -335,8 +335,8 @@
   (    5 /adc6 )
   (    6 /adc7 )
   (    7 GND )
-  (    8 N-000038 )
-  (    9 N-000073 )
+  (    8 N-000085 )
+  (    9 N-000042 )
   (   10 GND )
   (   11 GND )
   (   12 /RESET )
@@ -383,11 +383,11 @@
   (   53 /D7 )
   (   54 /pwr_atmega )
   (   55 GND )
-  (   56 N-000001 )
-  (   57 N-000090 )
+  (   56 N-000075 )
+  (   57 N-000001 )
   (   58 GND )
   (   59 /pwr_atmega )
-  (   60 N-000035 )
+  (   60 N-000040 )
   (   61 GND )
   (   62 /aref )
   (   63 /adc0 )
@@ -413,352 +413,350 @@ $endfootprintlist
 }
 { Pin List by Nets
 Net 1 "" ""
- U3 1
- C3 1
- R3 2
- U6 56
-Net 2 "GND" "GND"
- U6 20
- C18 2
- U6 61
- X1 4
- X1 3
- U6 24
- X1 2
- X1 1
- U6 35
- U6 45
- U6 10
- U6 55
- C11 2
- U6 7
- C1 2
- U6 65
- U13 1
- U4 6
- U9 2
- U10 2
- R4 2
- C4 2
- C5 2
- C17 2
- U8 6
- U8 5
+ C2 1
+ R3 1
+ U6 57
+ U3 3
+Net 2 "/pwr_ftdi" "pwr_ftdi"
+ R13 2
+ XT4 15
+ R14 2
+ J4 2
+ C13 1
+ U7 20
+ C14 1
+Net 3 "" ""
+ U12 1
+ R14 1
+Net 4 "" ""
+ R13 1
+ U11 1
+Net 5 "/CBUS0_CONN" "CBUS0_CONN"
+ XT4 9
+ U11 2
+ U7 23
+Net 7 "/CBUS4_CONN" "CBUS4_CONN"
+ XT4 13
+ U7 12
+Net 8 "/CBUS3_CONN" "CBUS3_CONN"
+ U7 14
+ XT4 12
+Net 9 "/CBUS2_CONN" "CBUS2_CONN"
+ XT4 11
+ U7 13
+Net 10 "/CBUS1_CONN" "CBUS1_CONN"
+ U12 2
+ XT4 10
+ U7 22
+Net 11 "/RI_CONN" "RI_CONN"
+ XT4 8
+ U7 6
+Net 12 "/DCD_CONN" "DCD_CONN"
+ XT4 7
+ U7 10
+Net 13 "/DSR_CONN" "DSR_CONN"
+ U7 9
+ XT4 6
+Net 14 "/DTR_CONN" "DTR_CONN"
+ XT4 5
+ U7 2
+ C19 1
+Net 15 "/CTS_CONN" "CTS_CONN"
+ XT4 4
+ U7 11
+Net 16 "/TXD_CONN" "TXD_CONN"
+ R10 1
+ U7 1
+ XT4 1
+Net 17 "/RXD_CONN" "RXD_CONN"
+ U7 5
+ R11 1
+ XT4 2
+Net 18 "/RTS_CONN" "RTS_CONN"
+ XT4 3
+ R12 1
+ U7 3
+Net 19 "/D7" "D7"
+ U6 53
+ XT2 3
+Net 20 "/D6" "D6"
+ U6 52
+ XT2 4
+Net 21 "/D5" "D5"
+ U6 51
+ XT2 5
+Net 22 "/D4" "D4"
+ U6 50
+ XT2 6
+Net 23 "/D3" "D3"
+ U6 49
+ XT2 7
+Net 24 "/D2" "D2"
+ XT2 8
+ U6 48
+Net 25 "" ""
+ R16 2
+ XT2 10
+Net 26 "/D18" "D18"
+ U6 27
+ XT3 11
+Net 27 "/D19" "D19"
+ XT3 12
+ U6 28
+Net 28 "/D20" "D20"
+ XT3 13
+ U6 29
+Net 29 "/D21" "D21"
+ XT3 14
+ U6 32
+Net 32 "/TXD" "TXD"
+ U6 47
+ R11 2
+ U14 3
+ R15 1
+Net 33 "" ""
+ XT2 9
+ R15 2
+Net 34 "/adc4" "adc4"
+ XT2 14
+ U6 3
+Net 35 "/adc5" "adc5"
+ XT2 13
+ U6 4
+Net 36 "/adc6" "adc6"
+ U6 5
+ XT2 12
+Net 37 "/adc7" "adc7"
+ U6 6
+ XT2 11
+Net 38 "/adc3" "adc3"
+ U6 2
+ XT2 15
+Net 39 "/adc1" "adc1"
+ U6 64
+ XT2 17
+Net 40 "" ""
+ U6 60
+ C5 1
+Net 41 "/DM" "DM"
+ XT1 2
+ R6 2
+Net 42 "" ""
+ U8 3
+ U6 9
+Net 43 "/aref" "aref"
+ U6 62
+ XT2 19
+ C6 1
+Net 44 "/DP" "DP"
+ R7 2
+ XT1 3
+Net 49 "/RXD" "RXD"
+ R16 1
+ R10 2
+ U13 3
+ U6 46
+Net 50 "" ""
+ XT1 1
+ U2 1
+Net 51 "/adc0" "adc0"
+ XT2 18
+ U6 63
+Net 52 "/pg0" "pg0"
+ XT3 15
+ U6 14
+Net 53 "/pg1" "pg1"
+ U6 15
+ XT3 16
+Net 54 "/pg2" "pg2"
+ U6 16
+ XT3 17
+Net 55 "/pg3" "pg3"
+ XT3 18
+ U6 17
+Net 56 "/D13" "D13"
+ XT3 5
+ U6 37
+Net 57 "/pg4" "pg4"
+ XT3 19
+ U6 18
+Net 58 "/pg5" "pg5"
+ XT3 20
+ U6 19
+Net 59 "/D12" "D12"
+ XT3 6
+ U6 39
+Net 60 "/adc2" "adc2"
+ XT2 16
+ U6 1
+Net 61 "GND" "GND"
  XT1 4
  XT1 5
  XT1 6
- J2 1
- U1 2
- U7 18
+ U6 7
+ C5 2
+ C4 2
+ C18 2
+ R4 2
+ X1 1
+ X1 2
+ X1 3
+ X1 4
+ C17 2
+ U8 5
+ U8 6
+ U6 35
+ U6 45
+ C1 2
+ C11 2
+ U6 10
+ U6 61
+ U6 24
+ C10 2
+ C6 2
+ C7 2
+ C8 2
+ C9 2
+ XT4 14
+ U3 4
+ R2 2
+ C3 2
+ C2 2
+ U3 2
+ U10 2
+ U9 2
+ U6 20
+ XT2 20
+ XT2 1
+ U6 11
+ U6 58
+ U6 65
+ U4 6
+ U7 7
+ C14 2
+ U7 21
+ U7 25
  U7 26
+ U7 18
+ U1 2
+ J2 1
+ C15 2
  C13 2
  C12 2
  C16 2
- U6 58
- U6 11
- C15 2
- C14 2
- U7 7
- U7 21
- U7 25
- C7 2
- C2 2
- C9 2
- XT2 20
- XT2 1
- C8 2
- R2 2
- C6 2
- C3 2
- XT4 14
- U14 1
- C10 2
-Net 5 "/pwr_ftdi" "pwr_ftdi"
- C14 1
- C13 1
- XT4 15
- R14 2
- R13 2
- U7 20
- J4 2
-Net 6 "" ""
- R14 1
- U12 1
-Net 7 "" ""
- R13 1
- U11 1
-Net 8 "/RESET" "RESET"
- U6 12
- R12 2
- R5 1
- C19 2
- U5 1
- U5 3
-Net 9 "/RI_CONN" "RI_CONN"
- U7 6
- XT4 8
-Net 11 "/CBUS4_CONN" "CBUS4_CONN"
- U7 12
- XT4 13
-Net 12 "/CBUS3_CONN" "CBUS3_CONN"
- XT4 12
- U7 14
-Net 13 "/CBUS2_CONN" "CBUS2_CONN"
- U7 13
- XT4 11
-Net 14 "/CBUS1_CONN" "CBUS1_CONN"
- U7 22
- XT4 10
- U12 2
-Net 15 "/CBUS0_CONN" "CBUS0_CONN"
- XT4 9
- U7 23
- U11 2
-Net 16 "/DCD_CONN" "DCD_CONN"
- XT4 7
- U7 10
-Net 17 "/DSR_CONN" "DSR_CONN"
- XT4 6
- U7 9
-Net 18 "/DTR_CONN" "DTR_CONN"
- XT4 5
- C19 1
- U7 2
-Net 19 "/TXD_CONN" "TXD_CONN"
- XT4 1
- U7 1
- R10 1
-Net 20 "/RXD_CONN" "RXD_CONN"
- R11 1
- U7 5
- XT4 2
-Net 21 "/RTS_CONN" "RTS_CONN"
- U7 3
- R12 1
- XT4 3
-Net 22 "/CTS_CONN" "CTS_CONN"
- U7 11
- XT4 4
-Net 23 "" ""
- R16 2
- XT2 11
-Net 24 "/D4" "D4"
- U6 50
- XT2 15
-Net 25 "/D5" "D5"
- XT2 16
- U6 51
-Net 26 "/D6" "D6"
- U6 52
- XT2 17
-Net 27 "/D7" "D7"
- U6 53
- XT2 18
-Net 28 "/TXD" "TXD"
- U14 3
- R11 2
- U6 47
- R15 1
-Net 29 "" ""
- R15 2
- XT2 12
-Net 30 "/D2" "D2"
- XT2 13
- U6 48
-Net 31 "/D3" "D3"
- U6 49
- XT2 14
-Net 32 "/adc5" "adc5"
- U6 4
- XT2 5
-Net 33 "/adc6" "adc6"
- XT2 4
- U6 5
-Net 34 "/adc7" "adc7"
- XT2 3
- U6 6
-Net 35 "" ""
- C5 1
- U6 60
-Net 36 "/aref" "aref"
- C6 1
- U6 62
-Net 37 "/DP" "DP"
- R7 2
- XT1 3
-Net 38 "" ""
- U6 8
- U8 4
-Net 40 "/DM" "DM"
- R6 2
- XT1 2
-Net 42 "/RXD" "RXD"
- R10 2
- U6 46
- R16 1
- U13 3
-Net 43 "" ""
- U2 1
- XT1 1
-Net 44 "/adc0" "adc0"
- XT2 10
- U6 63
-Net 45 "/pg0" "pg0"
- U6 14
- XT3 15
-Net 46 "/adc1" "adc1"
- XT2 9
- U6 64
-Net 47 "/pg1" "pg1"
- U6 15
- XT3 16
-Net 48 "/pg2" "pg2"
- U6 16
- XT3 17
-Net 49 "/D14" "D14"
- XT3 4
- U6 36
-Net 50 "/pg3" "pg3"
- XT3 18
- U6 17
-Net 51 "/pg4" "pg4"
- U6 18
- XT3 19
-Net 52 "/D15" "D15"
- U6 38
- XT3 3
-Net 53 "/pg5" "pg5"
- XT3 20
- U6 19
-Net 54 "/adc2" "adc2"
- U6 1
- XT2 8
-Net 55 "/adc3" "adc3"
- XT2 7
- U6 2
-Net 56 "/adc4" "adc4"
- U6 3
- XT2 6
-Net 57 "/D8" "D8"
- XT3 10
- U6 40
-Net 58 "/vdd33" "vdd33"
- U4 4
- C11 1
- J5 1
- J4 1
- R1 1
- J1 1
-Net 59 "/D10" "D10"
- U6 42
- XT3 8
-Net 60 "/pwr_atmega" "pwr_atmega"
- C9 1
+ U6 55
+Net 62 "/D11" "D11"
+ XT3 7
+ U6 41
+Net 63 "/pwr_atmega" "pwr_atmega"
+ U6 54
+ U6 33
  XT2 2
+ R5 2
  C4 1
- XT2 19
- U6 21
- U14 2
+ U6 59
+ C7 1
+ C8 1
+ C9 1
  C10 1
  J5 2
- R5 2
  XT4 16
- U6 54
+ U6 21
  U6 22
  U6 23
  U6 34
  U6 44
- U13 2
- U6 59
- C7 1
- C8 1
- U6 33
-Net 65 "" ""
- R7 1
- U7 15
+Net 64 "/D9" "D9"
+ XT3 9
+ U6 43
 Net 66 "" ""
- U7 16
- R6 1
-Net 67 "" ""
  U7 19
  C15 1
-Net 68 "" ""
+Net 70 "" ""
+ R7 1
+ U7 15
+Net 71 "" ""
+ R6 1
+ U7 16
+Net 72 "" ""
  U1 1
  R1 2
-Net 69 "" ""
- C1 1
- U2 2
- J3 1
- U4 2
-Net 70 "" ""
- U7 4
- C12 1
- C16 1
- U7 17
-Net 71 "" ""
- C17 1
- U8 2
-Net 72 "" ""
- U8 1
- X1 0
- C18 1
 Net 73 "" ""
- U6 9
- U8 3
-Net 74 "/D21" "D21"
- XT3 14
- U6 32
-Net 75 "/D20" "D20"
- XT3 13
- U6 29
-Net 76 "/D19" "D19"
- XT3 12
- U6 28
-Net 77 "/D18" "D18"
- XT3 11
- U6 27
+ U7 4
+ C16 1
+ C12 1
+ U7 17
+Net 74 "" ""
+ R2 1
+ U4 1
+ J3 2
+Net 75 "" ""
+ U6 56
+ R3 2
+ C3 1
+ U3 1
+Net 76 "" ""
+ U4 2
+ J3 1
+ U2 2
+ C1 1
+Net 77 "/vdd33" "vdd33"
+ J5 1
+ J4 1
+ U4 4
+ J1 1
+ R1 1
+ C11 1
 Net 78 "" ""
+ R9 1
+ U10 1
+Net 79 "/D16" "D16"
+ XT3 2
+ U6 25
+Net 80 "/D17" "D17"
+ U6 26
+ XT3 1
+Net 81 "" ""
  U5 2
  R4 1
  U5 4
-Net 79 "" ""
- R9 1
- U10 1
-Net 80 "/D9" "D9"
- XT3 9
- U6 43
-Net 81 "/D11" "D11"
- U6 41
- XT3 7
-Net 82 "/D12" "D12"
- U6 39
- XT3 6
-Net 83 "/D13" "D13"
- XT3 5
- U6 37
-Net 84 "/D17" "D17"
- XT3 1
- U6 26
-Net 85 "/D16" "D16"
- U6 25
- XT3 2
-Net 86 "/RFTX" "RFTX"
+Net 82 "" ""
+ R8 1
+ U9 1
+Net 83 "/RESET" "RESET"
+ U5 3
+ U6 12
+ U5 1
+ R5 1
+ C19 2
+ R12 2
+Net 84 "" ""
+ U8 2
+ C17 1
+Net 85 "" ""
+ U8 4
+ U6 8
+Net 86 "/50ohm" "50ohm"
+ C18 1
+ U8 1
+ X1 0
+Net 87 "/D10" "D10"
+ U6 42
+ XT3 8
+Net 88 "/RFRX" "RFRX"
+ R9 2
+ U6 30
+Net 89 "/RFTX" "RFTX"
  U6 31
  R8 2
-Net 87 "/RFRX" "RFRX"
- U6 30
- R9 2
-Net 88 "" ""
- U9 1
- R8 1
-Net 89 "" ""
- J3 2
- R2 1
- U4 1
-Net 90 "" ""
- U3 3
- U6 57
- R3 1
- C2 1
+Net 90 "/D8" "D8"
+ U6 40
+ XT3 10
+Net 91 "/D15" "D15"
+ XT3 3
+ U6 38
+Net 92 "/D14" "D14"
+ U6 36
+ XT3 4
 }
 #End

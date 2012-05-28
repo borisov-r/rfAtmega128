@@ -1,4 +1,4 @@
-update=Mon 21 May 2012 08:49:58 AM EEST
+update=Mon 28 May 2012 11:24:50 AM EEST
 last_client=eeschema
 [eeschema]
 version=1
