@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 28 May 2012 04:40:30 PM EEST
+EESchema Schematic File Version 2  date Wed 30 May 2012 02:09:17 PM EEST
 LIBS:power
 LIBS:conn
 LIBS:rfAtmega128schlib
@@ -9,7 +9,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "28 may 2012"
+Date "30 may 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -17,6 +17,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	8100 3100 7800 3100
+Wire Wire Line
+	7800 3100 7800 3400
+Wire Wire Line
+	7800 3400 7700 3400
+Wire Wire Line
+	8300 3050 8350 3050
 Wire Notes Line
 	7200 2650 7200 6900
 Wire Notes Line
@@ -24,12 +32,12 @@ Wire Notes Line
 Wire Wire Line
 	2400 3100 2400 3000
 Wire Wire Line
-	3150 2800 3150 2850
+	3150 2850 3150 2800
 Wire Wire Line
-	3200 2850 3200 2800
+	3200 2800 3200 2850
 Connection ~ 3200 3300
 Wire Wire Line
-	3200 3250 3200 3300
+	3200 3300 3200 3250
 Wire Wire Line
 	2700 2800 2600 2800
 Connection ~ 3400 3300
@@ -62,11 +70,11 @@ Wire Wire Line
 	5600 4050 4800 4050
 Connection ~ 5700 4900
 Wire Wire Line
-	5700 4900 5700 4950
+	5700 4950 5700 4900
 Wire Wire Line
 	5600 4400 5600 4450
 Wire Wire Line
-	5800 4850 5800 4900
+	5800 4900 5800 4850
 Wire Wire Line
 	5800 4400 5800 4450
 Wire Wire Line
@@ -122,15 +130,11 @@ Wire Wire Line
 Wire Wire Line
 	3500 5950 3500 5900
 Wire Wire Line
-	8100 3350 7750 3350
-Wire Wire Line
-	7750 3350 7750 3250
-Wire Wire Line
-	7750 3250 7550 3250
+	7550 3250 7750 3250
 Wire Wire Line
 	7550 3250 7550 3400
 Wire Wire Line
-	8300 3350 8350 3350
+	7850 3350 8350 3350
 Wire Wire Line
 	4800 3750 5300 3750
 Wire Wire Line
@@ -214,7 +218,7 @@ Wire Wire Line
 	2550 3050 2150 3050
 Connection ~ 2150 3100
 Wire Wire Line
-	2150 3050 2150 3100
+	2150 3100 2150 3050
 Wire Wire Line
 	2050 3100 2300 3100
 Connection ~ 1950 1100
@@ -292,7 +296,7 @@ Wire Wire Line
 	3900 1050 3800 1050
 Connection ~ 4500 1150
 Wire Wire Line
-	4500 1750 4500 900 
+	4500 900  4500 1750
 Wire Wire Line
 	4500 900  4100 900 
 Wire Wire Line
@@ -379,7 +383,7 @@ Connection ~ 1550 1100
 Wire Wire Line
 	1150 1250 1200 1250
 Wire Wire Line
-	1200 1250 1200 1550
+	1200 1550 1200 1250
 Connection ~ 1200 1550
 Wire Wire Line
 	1150 1150 1300 1150
@@ -390,9 +394,9 @@ Wire Wire Line
 Wire Wire Line
 	2800 1100 3050 1100
 Wire Wire Line
-	2950 1500 2950 1550
+	2950 1550 2950 1500
 Wire Wire Line
-	2950 1550 1150 1550
+	1150 1550 2950 1550
 Connection ~ 2850 1550
 Wire Wire Line
 	1150 2300 1150 2450
@@ -413,9 +417,9 @@ Wire Wire Line
 Wire Wire Line
 	3800 1300 4250 1300
 Wire Wire Line
-	4600 1850 4500 1850
+	4500 1850 4600 1850
 Wire Wire Line
-	4500 1850 4500 2050
+	4500 2050 4500 1850
 Wire Wire Line
 	4500 1900 4600 1900
 Connection ~ 4500 1900
@@ -445,7 +449,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 1400 6650 1450
 Wire Wire Line
-	6650 1200 6650 1150
+	6650 1150 6650 1200
 Wire Wire Line
 	6650 1150 6850 1150
 Wire Wire Line
@@ -581,25 +585,19 @@ Wire Wire Line
 Wire Wire Line
 	4800 3800 5300 3800
 Wire Wire Line
-	7700 3400 8100 3400
-Wire Wire Line
 	8350 3300 7850 3300
 Wire Wire Line
 	8350 3150 7850 3150
-Wire Wire Line
-	8350 3050 7850 3050
 Wire Wire Line
 	8350 2950 7850 2950
 Wire Wire Line
 	8350 3000 7850 3000
 Wire Wire Line
-	8350 3100 7850 3100
-Wire Wire Line
 	8350 3200 7850 3200
 Wire Wire Line
 	8350 3250 7850 3250
 Wire Wire Line
-	8300 3400 8350 3400
+	7850 3400 8350 3400
 Wire Wire Line
 	7550 3400 7500 3400
 Wire Wire Line
@@ -615,9 +613,9 @@ Wire Wire Line
 Wire Wire Line
 	4800 3600 5300 3600
 Wire Wire Line
-	5600 4850 5600 4900
+	5600 4900 5600 4850
 Wire Wire Line
-	5600 4900 5800 4900
+	5800 4900 5600 4900
 Wire Wire Line
 	4800 4000 5800 4000
 Wire Wire Line
@@ -651,12 +649,18 @@ Wire Wire Line
 	3150 3300 3150 3250
 Connection ~ 3150 3300
 Wire Wire Line
-	3200 2800 2900 2800
+	2900 2800 3200 2800
 Connection ~ 3150 2800
 Wire Wire Line
 	2300 3600 2300 3500
 Wire Notes Line
 	7300 2650 7300 4650
+Wire Wire Line
+	8300 3100 8350 3100
+Wire Wire Line
+	7750 3250 7750 3050
+Wire Wire Line
+	7750 3050 8100 3050
 Text Label 2300 3600 3    39   ~ 0
 gnd
 Text Label 2400 3000 1    39   ~ 0
@@ -732,17 +736,17 @@ F 3 "http://store.comet.bg/bg/CatalogueFarnell/Product/1283063/" H 5250 5500 39 
 	1    5250 5500
 	-1   0    0    -1  
 $EndComp
-Text Label 9250 4300 2    39   ~ 0
+Text Label 7850 4150 0    39   ~ 0
 D21
-Text Label 9250 4350 2    39   ~ 0
+Text Label 7850 4100 0    39   ~ 0
 D20
-Text Label 9250 4400 2    39   ~ 0
-D19
-Text Label 9250 4450 2    39   ~ 0
-D18
-Text Label 7850 4000 0    39   ~ 0
-D17
 Text Label 7850 4050 0    39   ~ 0
+D19
+Text Label 7850 4000 0    39   ~ 0
+D18
+Text Label 9250 4000 2    39   ~ 0
+D17
+Text Label 9250 4050 2    39   ~ 0
 D16
 Text Notes 5550 3350 2    39   ~ 0
 (SCK)\n(MOSI)\n(MISO)
@@ -760,33 +764,33 @@ Text Label 5300 3750 2    39   ~ 0
 D16
 Text Notes 5550 3750 2    39   ~ 0
 (SCL)\n(SDA)
-Text Label 9250 4000 2    39   ~ 0
-pg5
-Text Label 9250 4050 2    39   ~ 0
-pg4
-Text Label 9250 4100 2    39   ~ 0
-pg3
-Text Label 9250 4150 2    39   ~ 0
-pg2
-Text Label 9250 4200 2    39   ~ 0
-pg1
-Text Label 9250 4250 2    39   ~ 0
-pg0
-Text Label 7850 4100 0    39   ~ 0
-D15
-Text Label 7850 4150 0    39   ~ 0
-D14
 Text Label 7850 4200 0    39   ~ 0
-D13
+pg5
 Text Label 7850 4250 0    39   ~ 0
-D12
+pg4
 Text Label 7850 4300 0    39   ~ 0
-D11
+pg3
 Text Label 7850 4350 0    39   ~ 0
-D10
+pg2
 Text Label 7850 4400 0    39   ~ 0
-D9
+pg1
 Text Label 7850 4450 0    39   ~ 0
+pg0
+Text Label 9250 4100 2    39   ~ 0
+D15
+Text Label 9250 4150 2    39   ~ 0
+D14
+Text Label 9250 4200 2    39   ~ 0
+D13
+Text Label 9250 4250 2    39   ~ 0
+D12
+Text Label 9250 4300 2    39   ~ 0
+D11
+Text Label 9250 4350 2    39   ~ 0
+D10
+Text Label 9250 4400 2    39   ~ 0
+D9
+Text Label 9250 4450 2    39   ~ 0
 D8
 Text Label 5400 4050 0    39   ~ 0
 RFTX
@@ -873,48 +877,48 @@ F 3 "http://store.comet.bg/bg/Catalogue/Product/7504/" H 7450 3400 39  0001 C CN
 	1    7450 3400
 	1    0    0    1   
 $EndComp
-Text Label 7412 3650 3    39   ~ 0
+Text Label 7450 3650 3    39   ~ 0
 gnd
-Text Label 7488 3100 1    39   ~ 0
+Text Label 7450 3100 1    39   ~ 0
 pwr_atmega
 $Comp
 L RES_0603 R15
 U 1 1 4FBB5097
-P 8200 3350
-F 0 "R15" H 8200 3350 39  0000 C CNN
-F 1 "RES_0603" H 8200 3450 39  0001 C CNN
-F 2 "r_0603" H 8200 3350 60  0001 C CNN
-	1    8200 3350
+P 8200 3100
+F 0 "R15" H 8200 3100 39  0000 C CNN
+F 1 "RES_0603" H 8200 3200 39  0001 C CNN
+F 2 "r_0603" H 8200 3100 60  0001 C CNN
+	1    8200 3100
 	1    0    0    -1  
 $EndComp
 Text Label 7850 2950 0    39   ~ 0
 gnd
 Text Label 7850 3000 0    39   ~ 0
 pwr_atmega
-Text Label 7850 3400 0    39   ~ 0
-RXD
-Text Label 7850 3350 0    39   ~ 0
-TXD
-Text Label 7850 3300 0    39   ~ 0
-D2
-Text Label 7850 3250 0    39   ~ 0
-D3
-Text Label 7850 3200 0    39   ~ 0
-D4
-Text Label 7850 3150 0    39   ~ 0
-D5
-Text Label 7850 3100 0    39   ~ 0
-D6
 Text Label 7850 3050 0    39   ~ 0
+RXD
+Text Label 7850 3100 0    39   ~ 0
+TXD
+Text Label 7850 3150 0    39   ~ 0
+D2
+Text Label 7850 3200 0    39   ~ 0
+D3
+Text Label 7850 3250 0    39   ~ 0
+D4
+Text Label 7850 3300 0    39   ~ 0
+D5
+Text Label 7850 3350 0    39   ~ 0
+D6
+Text Label 7850 3400 0    39   ~ 0
 D7
 $Comp
 L RES_0603 R16
 U 1 1 4FBB5096
-P 8200 3400
-F 0 "R16" H 8200 3400 39  0000 C CNN
-F 1 "RES_0603" H 8200 3500 39  0001 C CNN
-F 2 "r_0603" H 8200 3400 60  0001 C CNN
-	1    8200 3400
+P 8200 3050
+F 0 "R16" H 8200 3050 39  0000 C CNN
+F 1 "RES_0603" H 8200 3150 39  0001 C CNN
+F 2 "r_0603" H 8200 3050 60  0001 C CNN
+	1    8200 3050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -927,7 +931,7 @@ F 2 "PN2X10" H 8550 3200 60  0001 C CNN
 	1    8550 3200
 	1    0    0    -1  
 $EndComp
-Text Label 7688 3100 1    39   ~ 0
+Text Label 7650 3100 1    39   ~ 0
 pwr_atmega
 Text Label 5300 4550 2    39   ~ 0
 D7
@@ -1138,7 +1142,7 @@ F 3 "http://store.comet.bg/Catalogue/Product/29190/" H 1750 1100 60  0001 C CNN
 	1    1750 1100
 	1    0    0    -1  
 $EndComp
-Text Label 7612 3650 3    39   ~ 0
+Text Label 7650 3650 3    39   ~ 0
 gnd
 Text Label 3350 3650 2    39   ~ 0
 gnd
