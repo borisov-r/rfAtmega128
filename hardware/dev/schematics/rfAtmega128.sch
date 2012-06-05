@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 04 Jun 2012 04:19:14 PM EEST
+EESchema Schematic File Version 2  date Tue 05 Jun 2012 02:08:04 PM EEST
 LIBS:power
 LIBS:conn
 LIBS:rfAtmega128schlib
@@ -9,7 +9,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "4 jun 2012"
+Date "5 jun 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1254,15 +1254,15 @@ Text Label 8650 1650 0    39   ~ 0
 CBUS1_CONN
 Text Label 7850 1600 2    39   ~ 0
 CBUS0_CONN
-Text Label 8650 1550 0    39   ~ 0
+Text Label 8650 1450 0    39   ~ 0
 RI_CONN
 Text Label 7850 1500 2    39   ~ 0
 DCD_CONN
-Text Label 8650 1450 0    39   ~ 0
-DSR_CONN
 Text Label 7850 1400 2    39   ~ 0
-DTR_CONN
+DSR_CONN
 Text Label 8650 1350 0    39   ~ 0
+DTR_CONN
+Text Label 8650 1550 0    39   ~ 0
 CTS_CONN
 Text Label 7850 1300 2    39   ~ 0
 RTS_CONN

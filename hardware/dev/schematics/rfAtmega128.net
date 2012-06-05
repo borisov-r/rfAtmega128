@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Mon 04 Jun 2012 02:07:52 PM EEST
+# EESchema Netlist Version 1.1 created  Tue 05 Jun 2012 02:08:08 PM EEST
 (
  ( /4FC87EA5 USB_B  XT1 USB_B {Lib=USB_B}
   (    1 N-000032 )
@@ -184,11 +184,11 @@
   (    1 /TXD_CONN )
   (    2 /RXD_CONN )
   (    3 /RTS_CONN )
-  (    4 /CTS_CONN )
-  (    5 /DTR_CONN )
-  (    6 /DSR_CONN )
+  (    4 /DTR_CONN )
+  (    5 /DSR_CONN )
+  (    6 /RI_CONN )
   (    7 /DCD_CONN )
-  (    8 /RI_CONN )
+  (    8 /CTS_CONN )
   (    9 /CBUS0_CONN )
   (   10 /CBUS1_CONN )
   (   11 /CBUS2_CONN )
@@ -409,44 +409,44 @@ $endfootprintlist
 }
 { Pin List by Nets
 Net 1 "" ""
- U4 1
- J3 2
  R2 1
+ J3 2
+ U4 1
 Net 2 "" ""
- U6 60
  C5 1
+ U6 60
 Net 3 "/aref" "aref"
- C6 1
  XT2 19
  U6 62
+ C6 1
 Net 4 "/TXD_CONN" "TXD_CONN"
+ XT4 1
  R10 1
  U7 1
- XT4 1
 Net 5 "/RXD_CONN" "RXD_CONN"
  U7 5
- R11 1
  XT4 2
+ R11 1
 Net 6 "/RTS_CONN" "RTS_CONN"
- XT4 3
  U7 3
+ XT4 3
  R12 1
-Net 7 "/CTS_CONN" "CTS_CONN"
- XT4 4
- U7 11
-Net 8 "/DTR_CONN" "DTR_CONN"
+Net 7 "/DTR_CONN" "DTR_CONN"
  U7 2
  C19 1
- XT4 5
-Net 9 "/DSR_CONN" "DSR_CONN"
+ XT4 4
+Net 8 "/DSR_CONN" "DSR_CONN"
  U7 9
+ XT4 5
+Net 9 "/RI_CONN" "RI_CONN"
+ U7 6
  XT4 6
 Net 10 "/DCD_CONN" "DCD_CONN"
  XT4 7
  U7 10
-Net 11 "/RI_CONN" "RI_CONN"
+Net 11 "/CTS_CONN" "CTS_CONN"
  XT4 8
- U7 6
+ U7 11
 Net 12 "/CBUS0_CONN" "CBUS0_CONN"
  XT4 9
  U7 23
