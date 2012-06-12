@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 05 Jun 2012 02:08:04 PM EEST
+EESchema Schematic File Version 2  date Tue 12 Jun 2012 11:07:18 AM EEST
 LIBS:power
 LIBS:conn
 LIBS:rfAtmega128schlib
