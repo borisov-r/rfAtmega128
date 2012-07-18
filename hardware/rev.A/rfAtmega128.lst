@@ -40,7 +40,7 @@ eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: Mon 16 Jul 2012 04:52:0
 | R15        510         ; r_0603      
 | R16        510         ; r_0603      
 | U1         LED_RED     ; KP-2012ZGC  
-| U2         DIODE       ; melf        
+| U2         1N4007      ; melf        
 | U3         Q16.000     ; crystal_xg6x3p5
 | U4         BA033CC0WFP ; BA033CCOWFP 
 | U5         BUTTON      ; PCB_PUSH    
@@ -103,7 +103,7 @@ eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: Mon 16 Jul 2012 04:52:0
 | BAT54S       U13       ; SOT23EBC    
 | BAT54S       U14       ; SOT23EBC    
 | BUTTON       U5        ; PCB_PUSH    
-| DIODE        U2        ; melf        
+| 1N4007       U2        ; melf        
 | FT232RL      U7        ; SSOP28      
 | FTDI_CONN    XT4       ; BH16R       
 | J2PIN        J4        ; JUMPER2PINS 
