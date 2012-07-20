@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 16 Jul 2012 04:51:59 PM EEST
+EESchema Schematic File Version 2  date Fri 20 Jul 2012 05:43:19 PM EEST
 LIBS:power
 LIBS:conn
 LIBS:rfAtmega128schlib
@@ -9,7 +9,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "16 jul 2012"
+Date "20 jul 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1464,7 +1464,7 @@ L RES_0603 R7
 U 1 1 4FBA00AD
 P 4350 1350
 F 0 "R7" H 4350 1350 39  0000 C CNN
-F 1 "510" H 4350 1450 39  0001 C CNN
+F 1 "0" H 4350 1450 39  0001 C CNN
 F 2 "r_0603" H 4350 1350 60  0001 C CNN
 	1    4350 1350
 	-1   0    0    1   
@@ -1474,7 +1474,7 @@ L RES_0603 R6
 U 1 1 4FBA00A5
 P 4350 1300
 F 0 "R6" H 4350 1300 39  0000 C CNN
-F 1 "510" H 4350 1400 39  0001 C CNN
+F 1 "0" H 4350 1400 39  0001 C CNN
 F 2 "r_0603" H 4350 1300 60  0001 C CNN
 	1    4350 1300
 	-1   0    0    1   
@@ -1621,7 +1621,7 @@ L DIODE U2
 U 1 1 4FB64C23
 P 1350 1100
 F 0 "U2" H 1300 1250 39  0000 C CNN
-F 1 "DIODE" H 1350 1200 39  0000 C CNN
+F 1 "1N4007" H 1350 1200 39  0000 C CNN
 F 2 "melf" H 1350 1100 60  0001 C CNN
 F 3 "http://store.comet.bg/bg/Catalogue/Product/27933/" H 1350 1100 39  0001 C CNN
 	1    1350 1100

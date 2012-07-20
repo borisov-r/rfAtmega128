@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 18 Jul 2012 10:25:55 AM EEST
+EESchema Schematic File Version 2  date Fri 20 Jul 2012 05:45:53 PM EEST
 LIBS:power
 LIBS:conn
 LIBS:rfAtmega128schlib
@@ -9,7 +9,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "18 jul 2012"
+Date "20 jul 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -17,6 +17,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Notes Line
+	7900 3600 7900 3500
+Wire Notes Line
+	7900 3500 7700 3500
 Wire Wire Line
 	1150 1350 1150 1550
 Wire Wire Line
@@ -660,6 +664,16 @@ Wire Notes Line
 	9350 5200 7300 5200
 Wire Notes Line
 	7300 5200 7300 2650
+Wire Notes Line
+	7700 3200 7350 3200
+Wire Notes Line
+	7700 3200 7700 3550
+Wire Notes Line
+	7700 3550 7350 3550
+Wire Notes Line
+	7350 3550 7350 3200
+Text Notes 7776 3672 0    39   ~ 0
+PINS SWAPED\nSHORT THE PWR
 $Comp
 L USB_B XT1
 U 1 1 4FC87EA5
@@ -1464,7 +1478,7 @@ L RES_0603 R7
 U 1 1 4FBA00AD
 P 4350 1350
 F 0 "R7" H 4350 1350 39  0000 C CNN
-F 1 "510" H 4350 1450 39  0001 C CNN
+F 1 "0" H 4350 1450 39  0001 C CNN
 F 2 "r_0603" H 4350 1350 60  0001 C CNN
 	1    4350 1350
 	-1   0    0    1   
@@ -1474,7 +1488,7 @@ L RES_0603 R6
 U 1 1 4FBA00A5
 P 4350 1300
 F 0 "R6" H 4350 1300 39  0000 C CNN
-F 1 "510" H 4350 1400 39  0001 C CNN
+F 1 "0" H 4350 1400 39  0001 C CNN
 F 2 "r_0603" H 4350 1300 60  0001 C CNN
 	1    4350 1300
 	-1   0    0    1   

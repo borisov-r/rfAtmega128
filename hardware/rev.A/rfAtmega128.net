@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 05 Jun 2012 02:08:08 PM EEST
+# EESchema Netlist Version 1.1 created  Fri 20 Jul 2012 05:46:14 PM EEST
 (
  ( /4FC87EA5 USB_B  XT1 USB_B {Lib=USB_B}
   (    1 N-000032 )
@@ -57,11 +57,11 @@
   (    1 N-000082 )
   (    2 /gnd )
  )
- ( /4FBB58F6 r_0603  R8 RES_0603 {Lib=RES_0603}
+ ( /4FBB58F6 r_0603  R8 2.7K {Lib=RES_0603}
   (    1 N-000081 )
   (    2 /RFTX )
  )
- ( /4FBB58F5 r_0603  R9 RES_0603 {Lib=RES_0603}
+ ( /4FBB58F5 r_0603  R9 2.7K {Lib=RES_0603}
   (    1 N-000082 )
   (    2 /RFRX )
  )
@@ -92,11 +92,11 @@
   (    2 /pwr_atmega )
   (    3 /RXD )
  )
- ( /4FBB5097 r_0603  R15 RES_0603 {Lib=RES_0603}
+ ( /4FBB5097 r_0603  R15 510 {Lib=RES_0603}
   (    1 /TXD )
   (    2 N-000021 )
  )
- ( /4FBB5096 r_0603  R16 RES_0603 {Lib=RES_0603}
+ ( /4FBB5096 r_0603  R16 510 {Lib=RES_0603}
   (    1 /RXD )
   (    2 N-000020 )
  )
@@ -150,7 +150,7 @@
   (    1 /pwr_atmega )
   (    2 /gnd )
  )
- ( /4FBA3D08 r_0603  R2 RES_0603 {Lib=RES_0603}
+ ( /4FBA3D08 r_0603  R2 100K {Lib=RES_0603}
   (    1 N-000001 )
   (    2 /gnd )
  )
@@ -246,11 +246,11 @@
   (    1 N-000063 )
   (    2 /gnd )
  )
- ( /4FBA00AD r_0603  R7 510 {Lib=RES_0603}
+ ( /4FBA00AD r_0603  R7 0 {Lib=RES_0603}
   (    1 N-000069 )
   (    2 /DP )
  )
- ( /4FBA00A5 r_0603  R6 510 {Lib=RES_0603}
+ ( /4FBA00A5 r_0603  R6 0 {Lib=RES_0603}
   (    1 N-000070 )
   (    2 /DM )
  )
@@ -325,7 +325,7 @@
   (    5 ? )
   (    6 /gnd )
  )
- ( /4FB64C23 melf  U2 DIODE {Lib=DIODE}
+ ( /4FB64C23 melf  U2 1N4007 {Lib=DIODE}
   (    1 N-000032 )
   (    2 N-000072 )
  )

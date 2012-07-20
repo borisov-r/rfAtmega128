@@ -1,4 +1,4 @@
-eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: Mon 16 Jul 2012 04:52:07 PM EEST
+eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: Fri 20 Jul 2012 05:46:03 PM EEST
 
 #Cmp ( order = Reference )
 | C1         330n        ; c_0603      
@@ -28,8 +28,8 @@ eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: Mon 16 Jul 2012 04:52:0
 | R3         1M          ; r_0603      
 | R4         51          ; r_0603      
 | R5         100K        ; r_0603      
-| R6         510         ; r_0603      
-| R7         510         ; r_0603      
+| R6         0           ; r_0603      
+| R7         0           ; r_0603      
 | R8         2.7K        ; r_0603      
 | R9         2.7K        ; r_0603      
 | R10        510         ; r_0603      
@@ -62,6 +62,8 @@ eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: Mon 16 Jul 2012 04:52:0
 #End Cmp
 
 #Cmp ( order = Value )
+| 0            R6        ; r_0603      
+| 0            R7        ; r_0603      
 | 1.5p         C18       ; c_0603      
 | 100K         R2        ; r_0603      
 | 100K         R5        ; r_0603      
@@ -80,6 +82,7 @@ eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: Mon 16 Jul 2012 04:52:0
 | 100n         C16       ; c_0603      
 | 100n         C19       ; c_0603      
 | 1M           R3        ; r_0603      
+| 1N4007       U2        ; melf        
 | 2.7K         R1        ; r_0603      
 | 2.7K         R8        ; r_0603      
 | 2.7K         R9        ; r_0603      
@@ -91,8 +94,6 @@ eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: Mon 16 Jul 2012 04:52:0
 | 330n         C1        ; c_0603      
 | 4.7u         C13       ; c_0805      
 | 51           R4        ; r_0603      
-| 510          R6        ; r_0603      
-| 510          R7        ; r_0603      
 | 510          R10       ; r_0603      
 | 510          R11       ; r_0603      
 | 510          R12       ; r_0603      
@@ -103,7 +104,6 @@ eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: Mon 16 Jul 2012 04:52:0
 | BAT54S       U13       ; SOT23EBC    
 | BAT54S       U14       ; SOT23EBC    
 | BUTTON       U5        ; PCB_PUSH    
-| 1N4007       U2        ; melf        
 | FT232RL      U7        ; SSOP28      
 | FTDI_CONN    XT4       ; BH16R       
 | J2PIN        J4        ; JUMPER2PINS 
