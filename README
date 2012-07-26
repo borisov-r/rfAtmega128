@@ -34,3 +34,6 @@ Eventually a 3D models of the components will be added to the PCB.
 ============================================================================
 
 Additional software for testing should be implemented.
+
+Main RF libraries:
+http://www.nongnu.org/uracoli/
