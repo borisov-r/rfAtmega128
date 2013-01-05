@@ -38,12 +38,12 @@
 #define digitalPinHasPWM(p)         ((p) == 5 ||(p) == 2 ||(p) == 4 ||(p) == 8 ||(p) == 9 ||(p) == 10 ||(p) == 11)
 
 /*const static uint8_t SS   = 10*/
-const static uint8_t MOSI = 20;
+const static uint8_t MOSI = 15;
 const static uint8_t MISO = 12;
 const static uint8_t SCK  = 13;
 
-const static uint8_t SDA = 21;
-const static uint8_t SCL = 22;
+const static uint8_t SDA = 17;
+const static uint8_t SCL = 16;
 const static uint8_t LED = 13;
 
 const static uint8_t A0 = 28;
@@ -60,11 +60,11 @@ const static uint8_t A7 = 35;
 // Pins: 7, 8, 9, 10, 11, 12, 13, 20
 
 #define digitalPinToPCICR(p)    ( (((p) >= 7) && ((p) <= 13)) || \
-                                  ((p) == 20) ? (&PCICR) : ((uint8_t *)0) )
+                                  ((p) == 15) ? (&PCICR) : ((uint8_t *)0) )
 
-#define digitalPinToPCICRbit(p) ( ((p) == 7) ? 1 : 0 ) 
+#define digitalPinToPCICRbit(p) ( ((p) == 7) ? 1 : 0 )
 
-#define digitalPinToPCMSK(p)    ( ((((p) >= 8) && ((p) <= 13)) || ((p) == 20)) ? (&PCMSK0) : \
+#define digitalPinToPCMSK(p)    ( ((((p) >= 8) && ((p) <= 13)) || ((p) == 15)) ? (&PCMSK0) : \
                                 ( ((p) == 7) ? (&PCMSK1) : \
                                 ((uint8_t *)0) ) )
 
@@ -75,7 +75,7 @@ const static uint8_t A7 = 35;
                                 ( ((p) == 11) ? 5 : \
                                 ( ((p) == 12) ? 3 : \
                                 ( ((p) == 13) ? 1 : \
-                                ( ((p) == 20) ? 2 : \
+                                ( ((p) == 15) ? 2 : \
                                 0 ) ) ) ) ) )
 
 #ifdef ARDUINO_MAIN
@@ -216,15 +216,15 @@ const uint8_t PROGMEM digital_pin_to_timer_PGM[] = {
 	NOT_ON_TIMER	,
 	NOT_ON_TIMER	,
 	NOT_ON_TIMER	,
+	TIMER3A	,
+	TIMER3B	,
+	TIMER3C ,
+	NOT_ON_TIMER ,
 	NOT_ON_TIMER	,
-	NOT_ON_TIMER	,
-	NOT_ON_TIMER	,
-	NOT_ON_TIMER	,
-	NOT_ON_TIMER	,
-	NOT_ON_TIMER	,
-	NOT_ON_TIMER	,
-	NOT_ON_TIMER	,
-	NOT_ON_TIMER	,
+	TIMER2A ,
+	TIMER1C ,
+	TIMER1B ,
+	TIMER1A ,
 	NOT_ON_TIMER	,
 	NOT_ON_TIMER	,
 	NOT_ON_TIMER	,
