@@ -14,9 +14,10 @@ Components:
 2. FT232RL       -> 28 pins     @ 3.3 V
 3. BA033         -> 5 pins      @ -0.3 - 35 V
 4. 2450FB15L0001 -> 6 pins      - RF balun
-5. tunning capacitors -> 22 pF, 0.5 - 1.5 pF, 0603
-6. RPSMA connector or PCB antenna
-7. ICSP connector
+5. MCP809T-270I/TT -> added to RESET pin for programming
+6. tunning capacitors -> 22 pF, 0.5 - 1.5 pF, 0603
+7. RPSMA connector or PCB antenna
+8. ICSP connector
 
 ============================================================================
 
