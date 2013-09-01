@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Fri 01 Jun 2012 11:42:03 AM EEST
+EESchema-DOCLIB  Version 2.0  Date: 23.01.2013 (ср) 22,33,03 EET
 #
 $CMP 2450FB15L0001
 D 2.45 GHz Harmonic Filter-Balun Optimized for AT86RF230/231 and ATmega128RFA1
@@ -94,6 +94,12 @@ $ENDCMP
 $CMP J3PIN
 D Jumper
 K jumper 3 pins header
+$ENDCMP
+#
+$CMP MC33063AD
+D DC/DC converter, Buck-Boost, Inv.
+K DC/DC converter Buck-Boost Invertor
+F http://store.comet.bg/download-file.php?id=4283
 $ENDCMP
 #
 $CMP PN2X10

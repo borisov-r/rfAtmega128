@@ -1,15 +1,15 @@
-EESchema Schematic File Version 2  date Fri 26 Oct 2012 01:14:30 PM EEST
+EESchema Schematic File Version 2  date Thu 10 Jan 2013 12:49:49 PM EET
 LIBS:power
 LIBS:conn
 LIBS:rfAtmega128schlib
 LIBS:rfAtmega128-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "26 oct 2012"
+Date "10 jan 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1217,7 +1217,7 @@ L RES_0603 R3
 U 1 1 4FBA3B5B
 P 2100 3300
 F 0 "R3" H 2100 3300 39  0000 C CNN
-F 1 "1M" H 2100 3400 39  0001 C CNN
+F 1 "do not mount" H 2100 3400 39  0001 C CNN
 F 2 "r_0603" H 2100 3300 60  0001 C CNN
 	1    2100 3300
 	0    1    1    0   
@@ -1227,7 +1227,7 @@ L CAP_0603 C3
 U 1 1 4FBA3B4F
 P 1950 3550
 F 0 "C3" H 1950 3500 39  0000 C CNN
-F 1 "20n" H 1950 3600 39  0000 C CNN
+F 1 "15p" H 1950 3600 39  0000 C CNN
 F 2 "c_0603" H 1950 3550 60  0001 C CNN
 	1    1950 3550
 	-1   0    0    1   
@@ -1237,7 +1237,7 @@ L CAP_0603 C2
 U 1 1 4FBA3B3C
 P 1950 3100
 F 0 "C2" H 1950 3050 39  0000 C CNN
-F 1 "20n" H 1950 3150 39  0000 C CNN
+F 1 "15p" H 1950 3150 39  0000 C CNN
 F 2 "c_0603" H 1950 3100 60  0001 C CNN
 	1    1950 3100
 	-1   0    0    1   
@@ -1309,8 +1309,8 @@ F 3 "http://store.comet.bg/bg/Catalogue/Product/5465/" H 8250 1600 39  0001 C CN
 	1    8250 1600
 	1    0    0    -1  
 $EndComp
-Text Notes 3800 2300 0    39   ~ 0
-FTDI\nAll signals are lead to XT connector.\nRXD and TXD pins are flipped and lead to ATmega128rfA1
+Text Notes 3800 2250 0    39   ~ 0
+FTDI\nAll signals are lead to XT connector.\nRXD and TXD pins are flipped and lead to ATmega128rfA1\n\nBUG: R12 should be replaced with 100 nF capacitor 0603
 Text Label 6750 1100 0    39   ~ 0
 pwr_ftdi
 $Comp
